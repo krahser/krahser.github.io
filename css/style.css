@@ -1,0 +1,11 @@
+#preamble {
+    position: fixed;
+    top: 0;
+    right: 15px;
+}
+
+#preamble a {
+    margin-top: 20px;
+    display: inline-block;
+}
+
