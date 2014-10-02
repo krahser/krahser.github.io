@@ -3,8 +3,8 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
 <head>
-<title>Computer Science</title>
-<!-- 2014-09-15 Mon 00:25 -->
+<title>Inform&aacute;tica</title>
+<!-- 2014-10-01 Wed 23:30 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Krahser &lt;Aldo Mar\iacute{}a Vizcaino&gt;" />
@@ -88,16 +88,16 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   /*]]>*/-->
 </style>
-<link href="css/style.css" 
-	 	    rel="stylesheet" media="screen">
-
-<script type="text/javascript" src="scripts/org-info.js">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+<script type="text/javascript" src="js/org-info.js">
 /**
  *
- * @source: scripts/org-info.js
+ * @source: js/org-info.js
  *
  * @licstart  The following is the entire license notice for the
- *  JavaScript code in scripts/org-info.js.
+ *  JavaScript code in js/org-info.js.
  *
  * Copyright (C) 2012-2013 Free Software Foundation, Inc.
  *
@@ -117,7 +117,7 @@
  * through which recipients can access the Corresponding Source.
  *
  * @licend  The above is the entire license notice
- * for the JavaScript code in scripts/org-info.js.
+ * for the JavaScript code in js/org-info.js.
  *
  */
 </script>
@@ -158,7 +158,7 @@ org_html_manager.set("VIEW_BUTTONS", "0");
 org_html_manager.set("MOUSE_HINT", "underline");
 org_html_manager.set("FIXED_TOC", "0");
 org_html_manager.set("TOC", "1");
-org_html_manager.set("VIEW", "overview");
+org_html_manager.set("VIEW", "info");
 org_html_manager.setup();  // activate after the parameters are set
 /*]]>*///-->
 </script>
@@ -210,141 +210,80 @@ for the JavaScript code in this tag.
 </script>
 </head>
 <body>
-<div id="preamble" class="status">
-<a href="https://www.google.com/+AldoMariaVizcaino"><img src="img/Gplus.png"
-					  alt="My account on Google Plus"></a>
-<a href="https://twitter.com/krahser"><img src="img/Twitter.png"
-					   alt="My account on Twitter"></a>
-<a href="https://github.com/krahser"><img src="img/GitHub.png"
-					  alt="My account on Github"></a>
-<a href="https://www.linkedin.com/in/krahser"><img src="img/Linkedin.png"
-					  alt="Linkedin"></a>
-<a href="http://grooveshark.com/krahser"><img src="img/Grooveshark.png"
-					  alt="My account on Grooveshark"> </a>
-</div>
 <div id="content">
-<h1 class="title">Computer Science</h1>
+<h1 class="title">Inform&aacute;tica</h1>
 <div id="table-of-contents">
 <h2>&Iacute;ndice</h2>
 <div id="text-table-of-contents">
 <ul>
 <li><a href="#sec-1">1. Que uso?</a>
 <ul>
-<li><a href="#sec-1-1">1.1. Archlinux</a></li>
-<li><a href="#sec-1-2">1.2. systemd</a>
+<li><a href="#sec-1-1">1.1. Arch Linux</a></li>
+<li><a href="#sec-1-2">1.2. Emacs</a>
 <ul>
-<li>
-<ul>
-<li><a href="#sec-1-2-0-1">1.2.0.1. systemd</a></li>
+<li><a href="#sec-1-2-1">1.2.1. ¿Por qu&eacute; me gusta Emacs?</a></li>
+<li><a href="#sec-1-2-2">1.2.2. ¿Qu&eacute; me gusta de Emacs?</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li><a href="#sec-1-3">1.3. Emacs</a>
+<li><a href="#sec-1-3">1.3. systemd</a>
 <ul>
-<li>
+<li><a href="#sec-1-3-1">1.3.1. Presentacion en el LINTI</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-4">1.4. Docker</a>
 <ul>
-<li><a href="#sec-1-3-0-1">1.3.0.1. ¿Por qu&eacute; me gusta Emacs?</a></li>
-<li><a href="#sec-1-3-0-2">1.3.0.2. ¿Qu&eacute; me gusta de Emacs?</a></li>
+<li><a href="#sec-1-4-1">1.4.1. baseimage-docker</a></li>
+<li><a href="#sec-1-4-2">1.4.2. Systemd en Docker</a></li>
+<li><a href="#sec-1-4-3">1.4.3. Informaci&oacute;n extra</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li><a href="#sec-1-4">1.4. Docker</a></li>
+<li><a href="#sec-1-5">1.5. Ansible</a></li>
 </ul>
 </li>
 <li><a href="#sec-2">2. Que hice?</a>
 <ul>
-<li><a href="#sec-2-1">2.1. Pymoha</a></li>
-<li><a href="#sec-2-2">2.2. Pygitsy</a></li>
-<li><a href="#sec-2-3">2.3. Djbot</a></li>
+<li><a href="#sec-2-1">2.1. Pymoha</a>
+<ul>
+<li><a href="#sec-2-1-1">2.1.1. Descripci&oacute;n</a></li>
+<li><a href="#sec-2-1-2">2.1.2. Estado actual</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-2">2.2. Djbot</a>
+<ul>
+<li><a href="#sec-2-2-1">2.2.1. Resumen</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
+<script src="js/bootstrap.min.js"></script>
 
 <div id="outline-container-sec-1" class="outline-2">
 <h2 id="sec-1"><span class="section-number-2">1</span> Que uso?</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-Arch Linux, systemd, emacs, zsh, Ansible, Docker
+Estoy utilizando la distribuci&oacute;n <a href="#Arch-Linux">Arch Linux</a>, dentro de esta arme un
+entorno de administraci&oacute;n compuesto por <a href="#systemd">systemd</a>, <a href="http://en.wikipedia.org/wiki/Secure_Shell">ssh</a>, <a href="#Docker">Docker</a> y <a href="#Ansible">Ansible</a>
+En mi entorno de trabajo utilizo <a href="#Emacs">Emacs</a> para programar en <a href="http://en.wikipedia.org/wiki/C_(programming_language)">C</a>, <a href="https://www.python.org/">Python</a>,
+<a href="http://php.net/">PHP</a>, <a href="https://www.java.com/en/">Java</a> - <a href="http://www.android.com/">Android</a> .
+El escritorio de mi computadora ademas esta gestionado por <a href="http://www.gnome.org/">Gnome</a> y mi
+navegador es <a href="https://www.mozilla.org">Firefox</a>.
+Para servicios web utilizo <a href="http://nginx.org/">Nginx</a> y alguna vez utilice <a href="http://www.apache.org/">Apache</a>.
+Para almacenar datos probe <a href="http://www.mysql.com/">Mysql</a> y <a href="http://redis.io/">Redis</a>
 </p>
-
-<p>
-Ese entorno me permite trabajar con:
-</p>
-
-<ul class="org-ul">
-<li>Lenguajes:
-
-<ul class="org-ul">
-<li>C
-</li>
-
-<li>Python
-</li>
-
-<li>Php
-</li>
-
-<li>Java - Android
-</li>
-</ul>
-</li>
-
-<li>Bases de datos:
-
-<ul class="org-ul">
-<li>Mysql
-</li>
-
-<li>Postgres
-</li>
-
-<li>Redis
-</li>
-</ul>
-</li>
-
-<li>Servidor Web:
-
-<ul class="org-ul">
-<li>Nginx
-</li>
-
-<li>Apache
-</li>
-</ul>
-</li>
-</ul>
 </div>
 
 <div id="outline-container-sec-1-1" class="outline-3">
-<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Archlinux</h3>
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> <a id="Arch-Linux" name="Arch-Linux"></a>Arch Linux</h3>
 </div>
-
 <div id="outline-container-sec-1-2" class="outline-3">
-<h3 id="sec-1-2"><span class="section-number-3">1.2</span> systemd</h3>
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> <a id="Emacs" name="Emacs"></a>Emacs</h3>
 <div class="outline-text-3" id="text-1-2">
-<p>
-Es un administrador del sistema para kernel Linux, que nos
-permite administrar todos los servicios que queremos utilizar, nos
-facilita la lectura de logs y nos permite enjaular aplicaciones.
-</p>
-</div>
-
-<div id="outline-container-sec-1-2-0-1" class="outline-5">
-<h5 id="sec-1-2-0-1"><span class="section-number-5">1.2.0.1</span> <a href="http://informaticorenegado.com.ar/systemd">systemd</a></h5>
-</div>
-</div>
-
-<div id="outline-container-sec-1-3" class="outline-3">
-<h3 id="sec-1-3"><span class="section-number-3">1.3</span> Emacs</h3>
-<div class="outline-text-3" id="text-1-3">
-</div><div id="outline-container-sec-1-3-0-1" class="outline-5">
-<h5 id="sec-1-3-0-1"><span class="section-number-5">1.3.0.1</span> ¿Por qu&eacute; me gusta Emacs?</h5>
-<div class="outline-text-5" id="text-1-3-0-1">
+</div><div id="outline-container-sec-1-2-1" class="outline-4">
+<h4 id="sec-1-2-1"><span class="section-number-4">1.2.1</span> ¿Por qu&eacute; me gusta Emacs?</h4>
+<div class="outline-text-4" id="text-1-2-1">
 <p>
 Porque son los conceptos esenciales del sistema GNU resumidos en un
 editor de texto, que casi por si solo es un sistema operativo.
@@ -352,9 +291,9 @@ editor de texto, que casi por si solo es un sistema operativo.
 </div>
 </div>
 
-<div id="outline-container-sec-1-3-0-2" class="outline-5">
-<h5 id="sec-1-3-0-2"><span class="section-number-5">1.3.0.2</span> ¿Qu&eacute; me gusta de Emacs?</h5>
-<div class="outline-text-5" id="text-1-3-0-2">
+<div id="outline-container-sec-1-2-2" class="outline-4">
+<h4 id="sec-1-2-2"><span class="section-number-4">1.2.2</span> ¿Qu&eacute; me gusta de Emacs?</h4>
+<div class="outline-text-4" id="text-1-2-2">
 <ul class="org-ul">
 <li>Marcadores o Bookmarks
 </li>
@@ -371,37 +310,200 @@ editor de texto, que casi por si solo es un sistema operativo.
 </div>
 </div>
 
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> <a id="systemd" name="systemd"></a>systemd</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+Es un administrador del sistema para kernel Linux, que nos
+permite administrar todos los servicios que queremos utilizar, nos
+facilita la lectura de logs y nos permite enjaular aplicaciones.
+</p>
+</div>
+
+<div id="outline-container-sec-1-3-1" class="outline-4">
+<h4 id="sec-1-3-1"><span class="section-number-4">1.3.1</span> <a href="http://informaticorenegado.com.ar/systemd">Presentacion en el LINTI</a></h4>
+</div>
+</div>
+
 <div id="outline-container-sec-1-4" class="outline-3">
-<h3 id="sec-1-4"><span class="section-number-3">1.4</span> Docker</h3>
+<h3 id="sec-1-4"><span class="section-number-3">1.4</span> <a id="Docker" name="Docker"></a>Docker</h3>
 <div class="outline-text-3" id="text-1-4">
 <p>
-Es un sistema muy bien organizado que aprovechando beneficios
-del kernel Linux nos entrega el funcionamiento aislado de otra
-distribucion para poder ejecutar un conjunto de aplicaciones.
+#+BEGIN<sub>quote</sub>
+The Docker Engine - our lightweight and powerful open source container
+virtualization technology combined with a work flow for building and
+containerizing your applications. &#x2013; <a href="https://docs.docker.com/">Docker docs</a>
+#+BEGIN<sub>quote</sub>
 </p>
+
+<p>
+Docker nos permite el funcionamiento aislado de otra
+distribuci&oacute;n para poder ejecutar un conjunto de aplicaciones, probar
+entornos de trabajo, o lo que se nos ocurra en un sistema aislado.
+</p>
+
+<p>
+Algo usual en docker es ejecutar un solo proceso, si queremos
+agregarle algun tipo de administraci&oacute;n remota, vamos a necesitar de un
+servicio como por ejemplo ssh. Cuando se ejecutan dos o mas procesos
+en una computadora es necesario que saber cuando termino la ejecuci&oacute;n,
+para liberar la memoria por ejemplo. 
+</p>
+</div>
+
+<div id="outline-container-sec-1-4-1" class="outline-4">
+<h4 id="sec-1-4-1"><span class="section-number-4">1.4.1</span> baseimage-docker</h4>
+<div class="outline-text-4" id="text-1-4-1">
+<p>
+Esta imagen nos permite generar contenedores que ya tienen el servicio
+de ssh funcionando, y que ademas se pueden agregar servicios al inicio
+con un script en /etc/service/&lt;SERVICE NAME&gt;/run
+</p>
+
+<p>
+A continuacion algunas lecturas que me parecieron importantes
+</p>
+
+<ul class="org-ul">
+<li><a href="http://phusion.github.io/baseimage-docker/">baseimage-docker</a>
+</li>
+<li><a href="https://news.ycombinator.com/item?id=7950326">Discusion sobre baseimage-docker</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-4-2" class="outline-4">
+<h4 id="sec-1-4-2"><span class="section-number-4">1.4.2</span> Systemd en Docker</h4>
+<div class="outline-text-4" id="text-1-4-2">
+<p>
+Tambi&eacute;n se me ocurrio controlar los servicios dentro de docker, pero
+con una peque&ntilde;a busqueda me di cuenta de que:
+</p>
+<ul class="org-ul">
+<li>Ya se le habia ocurrido a alguien (<a href="http://developerblog.redhat.com/2014/05/05/running-systemd-within-docker-container/">Referencia</a>)
+</li>
+<li>Y tenia sus complicaciones, <a href="https://github.com/docker/docker/issues/3629">Issues en Github</a>
+  <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1033604">Issues en Red hat</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-4-3" class="outline-4">
+<h4 id="sec-1-4-3"><span class="section-number-4">1.4.3</span> Informaci&oacute;n extra</h4>
+<div class="outline-text-4" id="text-1-4-3">
+<ul class="org-ul">
+<li><a href="http://highscalability.com/blog/2014/4/8/microservices-not-a-free-lunch.html">Algo sobre microservicios</a>
+</li>
+<li><a href="https://coreos.com/docs/launching-containers/launching/getting-started-with-systemd/">CoreOS</a> &#x2013; Esto me lo conto <a href="https://github.com/farfanoide">@farfanoide</a>
+</li>
+</ul>
 </div>
 </div>
 </div>
 
+
+<div id="outline-container-sec-1-5" class="outline-3">
+<h3 id="sec-1-5"><span class="section-number-3">1.5</span> <a id="Ansible" name="Ansible"></a>Ansible</h3>
+<div class="outline-text-3" id="text-1-5">
+<p>
+Ansible is the simplest way to automate IT.
+</p>
+
+<p>
+Estoy aprendiendo a usar esta herramienta, ya que quiero utilizarla
+para realizar mi trabajo de tesis.
+</p>
+</div>
+</div>
+</div>
 
 <div id="outline-container-sec-2" class="outline-2">
 <h2 id="sec-2"><span class="section-number-2">2</span> Que hice?</h2>
 <div class="outline-text-2" id="text-2">
 </div><div id="outline-container-sec-2-1" class="outline-3">
 <h3 id="sec-2-1"><span class="section-number-3">2.1</span> Pymoha</h3>
-</div>
-<div id="outline-container-sec-2-2" class="outline-3">
-<h3 id="sec-2-2"><span class="section-number-3">2.2</span> Pygitsy</h3>
-</div>
-<div id="outline-container-sec-2-3" class="outline-3">
-<h3 id="sec-2-3"><span class="section-number-3">2.3</span> <a href="https://github.com/krahser/djbot">Djbot</a></h3>
-<div class="outline-text-3" id="text-2-3">
+<div class="outline-text-3" id="text-2-1">
+</div><div id="outline-container-sec-2-1-1" class="outline-4">
+<h4 id="sec-2-1-1"><span class="section-number-4">2.1.1</span> Descripci&oacute;n</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<blockquote>
 <p>
-¿Mi tesis?
+Es una aplicación que permite controlar las acciones del mouse con
+eventos simples (presionar el botón, o soltarlo). Para ser un poco más
+específico, la aplicación tendrá 2 modos, uno de "memoria" y uno para
+permitir el desplazamiento con la acción elegida.
+En el módulo "memoria" la idea es poder grabar distintos puntos en la
+pantalla, y que estos empiecen a ser iterados con el mouse (sirve para
+aplicaciones asociativas), el puntero del mouse esperará una
+determinada cantidad de tiempo sobre una posición, esperando que se
+presente algun evento, en caso de no ocurrir el mismo se moverá al
+siguiente punto, y en caso de que ocurra, se deberá desplegar una
+nueva ventana con un botón de acción, para presionar, soltar o
+realizar click.
+En el módulo de desplazamiento, el mouse comenzará a desplegarse desde
+la ventana superior izquierda (0,0), hacia abajo, esperando algún
+evento. Cuando este ocurra deberá desplegarse una ventana que permita
+cambiarle el sentido de desplazamiento al puntero, o ejecutar alguna
+acción. &#x2013; <a href="https://lihuen.info.unlp.edu.ar/index.php?title=PyMoHa_--_Python_Mouse_Handler">Lihuen</a>
+</p>
+</blockquote>
+</div>
+</div>
+
+<div id="outline-container-sec-2-1-2" class="outline-4">
+<h4 id="sec-2-1-2"><span class="section-number-4">2.1.2</span> Estado actual</h4>
+<div class="outline-text-4" id="text-2-1-2">
+<p>
+Ya hace bastante tiempo que no se desarrolla la aplicaci&oacute;n, pero eso
+no quiere decir que este abandonada.
 </p>
 </div>
 </div>
 </div>
+
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> <a href="https://github.com/krahser/djbot">Djbot</a></h3>
+<div class="outline-text-3" id="text-2-2">
+</div><div id="outline-container-sec-2-2-1" class="outline-4">
+<h4 id="sec-2-2-1"><span class="section-number-4">2.2.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-2-2-1">
+<blockquote>
+<p>
+La necesidad de optimizar las tareas de mantenimiento y uso remoto en
+las salas de PC de la Facultad de Informática de la UNLP dio lugar al
+desarrollo de DJBot: una aplicación web realizada en Python que
+permite ejecutar comandos en múltiples computadoras en un solo
+paso. En este documento se describen los motivos y el camino recorrido
+para llegar a la versión de la aplicación disponible hoy en día. DJBot
+se encuentra liberado como Software Libre para que cualquiera que
+desee pueda utilizarlo y contribuir en el proyecto. Desde su
+desarrollo evoluciono de ser una simple herramienta ejecutable en la
+línea de comandos a convertirse en una plataforma de administración
+centralizada que simplifica el mantenimiento, actualiza los equipos y
+permite ejecutar tareas programadas en la interfaz web. &#x2013; <a href="http://sedici.unlp.edu.ar/handle/10915/31339">Publicaci&oacute;n</a>
+</p>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<a href="https://www.google.com/+AldoMariaVizcaino"><img src="img/Gplus.png"
+					  alt="My account on Google Plus"></a>
+<a href="https://twitter.com/krahser"><img src="img/Twitter.png"
+					   alt="My account on Twitter"></a>
+<a href="https://github.com/krahser"><img src="img/GitHub.png"
+					  alt="My account on Github"></a>
+<a href="https://www.linkedin.com/in/krahser"><img src="img/Linkedin.png"
+					  alt="Linkedin"></a>
+<a href="http://grooveshark.com/krahser"><img src="img/Grooveshark.png"
+					  alt="My account on
+					  Grooveshark"> </a>
+<a href="http://informaticorenegado.com.ar">
+<img src="img/informaticorenegado.png" alt="My webpage"> </a>
 </div>
 </body>
 </html>

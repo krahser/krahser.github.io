@@ -1,10 +1,10 @@
-#preamble {
+#postamble {
     position: fixed;
-    top: 0;
+    bottom: 2px;
     right: 15px;
 }
 
-#preamble a {
+#postamble a {
     margin-top: 20px;
     display: inline-block;
 }
