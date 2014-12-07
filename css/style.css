@@ -8,4 +8,72 @@
     margin-top: 20px;
     display: inline-block;
 }
+#outline-container-sec-1, #outline-container-sec-2, #outline-container-sec-3, #outline-container-sec-4, #outline-container-sec-5, #outline-container-sec-6, #outline-container-sec-7, #outline-container-sec-8, #outline-container-sec-9, #outline-container-sec-10{
+    clear: both;
+}
+
+#outline-container-sec-1{
+    background: Gainsboro;
+}
+
+.contact-details{
+    padding: 2em;
+}
+
+
+
+#outline-container-sec-2{
+    background: Red;
+}
+
+#outline-container-sec-3{
+    background: Blue;
+}
+#outline-container-sec-4{
+    background: Green;
+}
+#outline-container-sec-5{
+    background: Gold;
+}
+
+#outline-container-sec-5{
+    background: Lime;
+}
+
+#outline-container-sec-6{
+    background: Olive;
+}
+
+#outline-container-sec-7{
+    background: Peru;
+}
+
+#outline-container-sec-8{
+    background: Purple;
+}
+
+#outline-container-sec-8{
+    background: SeaGreen;
+}
+
+#outline-container-sec-9{
+    background: SeaShell;
+}
+
+
+/* dd { */
+/*     display: block; */
+/*     padding-left: 5em; */
+/* } */
+
+#sec-1, #sec-2, #sec-2-1, #sec-3, #sec-4, #sec-5, #sec-6, #sec-7, #sec-8, #sec-9, #sec-10{
+    text-align: center;
+}
+/* .outline-text-2, .outline-text-3{ */
+/*     padding-left:4.7em; */
+/*     padding-top:2em; */
+/* } */
+
+
+
 
