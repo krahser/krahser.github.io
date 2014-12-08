@@ -10,61 +10,87 @@
 }
 #outline-container-sec-1, #outline-container-sec-2, #outline-container-sec-3, #outline-container-sec-4, #outline-container-sec-5, #outline-container-sec-6, #outline-container-sec-7, #outline-container-sec-8, #outline-container-sec-9, #outline-container-sec-10{
     clear: both;
+  /*  margin-left: 3em;
+    margin-right: 3em;*/
+    width: 80%;
+    margin: 40px auto 60px;
+}
+#text-1, #text-2, #text-2-1, #text-3, #text-4, #text-5, #text-6, #text-7, #text-8, #text-9, #text-10{
+    clear: both;
+    width: 80%;
+    margin: 40px auto 60px;
 }
 
-#outline-container-sec-1{
-    background: Gainsboro;
+#profile-box{
+    width: 100%;
 }
 
 .contact-details{
-    padding: 2em;
+    margin-left: 2em;
+    padding-bottom: 2em;
+    float: left;
 }
 
-
-
-#outline-container-sec-2{
-    background: Red;
-}
-
-#outline-container-sec-3{
-    background: Blue;
-}
-#outline-container-sec-4{
-    background: Green;
-}
-#outline-container-sec-5{
-    background: Gold;
-}
-
-#outline-container-sec-5{
-    background: Lime;
-}
-
-#outline-container-sec-6{
-    background: Olive;
-}
-
-#outline-container-sec-7{
-    background: Peru;
-}
-
-#outline-container-sec-8{
-    background: Purple;
-}
-
-#outline-container-sec-8{
-    background: SeaGreen;
-}
-
-#outline-container-sec-9{
-    background: SeaShell;
-}
-
-
-/* dd { */
-/*     display: block; */
-/*     padding-left: 5em; */
+/* #outline-container-sec-1{ */
+/*     background: Gainsboro; */
 /* } */
+
+/* #outline-container-sec-2{ */
+/*     background: Red; */
+/* } */
+
+/* #outline-container-sec-3{ */
+/*     background: Blue; */
+/* } */
+/* #outline-container-sec-4{ */
+/*     background: Green; */
+/* } */
+/* #outline-container-sec-5{ */
+/*     background: Gold; */
+/* } */
+
+/* #outline-container-sec-5{ */
+/*     background: Lime; */
+/* } */
+
+/* #outline-container-sec-6{ */
+/*     background: Olive; */
+/* } */
+
+/* #outline-container-sec-7{ */
+/*     background: Peru; */
+/* } */
+
+/* #outline-container-sec-8{ */
+/*     background: Purple; */
+/* } */
+
+/* #outline-container-sec-8{ */
+/*     background: SeaGreen; */
+/* } */
+
+/* #outline-container-sec-9{ */
+/*     background: SeaShell; */
+/* } */
+
+
+dd {
+    display: block;
+    padding-left: 5em;
+}
+
+dt {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 0 26px 0 0;
+    text-align: left;
+}
+
+i {
+    font-style: italic;
+    font-weight: bold;
+}
 
 #sec-1, #sec-2, #sec-2-1, #sec-3, #sec-4, #sec-5, #sec-6, #sec-7, #sec-8, #sec-9, #sec-10{
     text-align: center;
@@ -75,5 +101,31 @@
 /* } */
 
 
-
-
+#table-of-contents {
+    background: none repeat scroll 0 0 white;
+    box-shadow: 0 0 1em #777777;
+    font-size: 10pt;
+    line-height: 12pt;
+    max-height: 80%;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+#table-of-contents h2 {
+    border: 0 none;
+    font-size: 13pt;
+    font-weight: normal;
+    max-width: 9em;
+    padding: 0.05em 0.5em;
+}
+#table-of-contents #text-table-of-contents {
+    display: none;
+    text-align: left;
+}
+#table-of-contents:hover #text-table-of-contents {
+    display: block;
+    margin-top: -1.5em;
+    padding: 0.5em;
+}
