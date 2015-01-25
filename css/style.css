@@ -198,3 +198,18 @@ header h2 {
     color: white;
     text-transform: capitalize;
 }
+
+/* Tablas*/
+
+table {
+    background-color: #F5F5F5;
+}
+
+th.left {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+td.left {
+    text-align: center;
+}
