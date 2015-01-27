@@ -31,49 +31,6 @@
     float: left;
 }
 
-/* #outline-container-sec-1{ */
-/*     background: Gainsboro; */
-/* } */
-
-/* #outline-container-sec-2{ */
-/*     background: Red; */
-/* } */
-
-/* #outline-container-sec-3{ */
-/*     background: Blue; */
-/* } */
-/* #outline-container-sec-4{ */
-/*     background: Green; */
-/* } */
-/* #outline-container-sec-5{ */
-/*     background: Gold; */
-/* } */
-
-/* #outline-container-sec-5{ */
-/*     background: Lime; */
-/* } */
-
-/* #outline-container-sec-6{ */
-/*     background: Olive; */
-/* } */
-
-/* #outline-container-sec-7{ */
-/*     background: Peru; */
-/* } */
-
-/* #outline-container-sec-8{ */
-/*     background: Purple; */
-/* } */
-
-/* #outline-container-sec-8{ */
-/*     background: SeaGreen; */
-/* } */
-
-/* #outline-container-sec-9{ */
-/*     background: SeaShell; */
-/* } */
-
-
 dd {
     display: block;
     padding-left: 5em;
@@ -92,7 +49,7 @@ i {
     font-weight: bold;
 }
 
-#sec-1, #sec-2, #sec-2-1, #sec-3, #sec-4, #sec-5, #sec-6, #sec-7, #sec-8, #sec-9, #sec-10{
+#sec-1, #sec-2, #sec-2-1, #sec-2-2, #sec-2-3, #sec-2-4, #sec-2-5, #sec-2-6, #sec-2-7, #sec-3, #sec-4, #sec-5, #sec-6, #sec-7, #sec-8, #sec-9, #sec-10{
     text-align: center;
 }
 /* .outline-text-2, .outline-text-3{ */
@@ -197,6 +154,27 @@ header h1 {
 header h2 {
     color: white;
     text-transform: capitalize;
+}
+
+h1 h2 h3 h4 h5 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+h2 {
+    font-size: 1.7em;
+}
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+h5 {
+    font-size: 1.3em;
 }
 
 /* Tablas*/
