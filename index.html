@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>krahser</title>
-<!-- 2015-03-04 Wed 17:40 -->
+<!-- 2015-03-04 Wed 20:22 -->
 <meta  charset="utf-8">
 <meta  name="generator" content="Org-mode">
 <meta  name="author" content="Krahser &lt;Aldo Mar\iacute{}a Vizcaino&gt;">
@@ -147,24 +147,7 @@ for the JavaScript code in this tag.
 <li><a href="#sec-1">¿Qué es esto?</a></li>
 <li><a href="#sec-2"><span class="underline">Mi profesión</span></a>
 <ul>
-<li><a href="#sec-2-1">Ansible</a>
-<ul>
-<li><a href="#sec-2-1-1">Como trabajar con ansible</a>
-<ul>
-<li><a href="#sec-2-1-1-1">Configuracion inicial</a></li>
-<li><a href="#sec-2-1-1-2">Flujo de trabajo</a></li>
-</ul>
-</li>
-<li><a href="#sec-2-1-2">Textos interesantes:</a></li>
-<li><a href="#sec-2-1-3">Mis aportes:</a>
-<ul>
-<li><a href="#sec-2-1-3-1">Redmine</a></li>
-<li><a href="#sec-2-1-3-2">Bison</a></li>
-<li><a href="#sec-2-1-3-3">Php-fpm</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li><a href="#sec-2-1">Ansible</a></li>
 <li><a href="#sec-2-2">Arch Linux</a></li>
 <li><a href="#sec-2-3">Docker</a>
 <ul>
@@ -249,118 +232,16 @@ En mi computadora uso la distribución <a href="#Arch-Linux">Arch Linux</a>. El 
 <div id="outline-container-sec-2-1" class="outline-3">
 <h3 id="sec-2-1"><a id="Ansible" name="Ansible"></a>Ansible</h3>
 <div class="outline-text-3" id="text-2-1">
+<blockquote>
 <p>
 Ansible is the simplest way to automate IT.
 </p>
-
+</blockquote>
 <p>
-Estoy aprendiendo a usar esta herramienta, ya que la quiero para realizar mi trabajo de tesis.
-</p>
-
-<ul class="org-ul">
-<li><code>¿Qué es ansible?</code>
-</li>
-</ul>
-<p>
-Una herramienta de administración de computadoras que utiliza ssh <i>-es decir que no necesitamos instalar un agente en nuestros equipos-</i> para poder configurarlos, desplegar aplicaciones y asegurarnos su estado
-</p>
-</div>
-
-<div id="outline-container-sec-2-1-1" class="outline-4">
-<h4 id="sec-2-1-1">Como trabajar con ansible</h4>
-<div class="outline-text-4" id="text-2-1-1">
-<p>
-Mi intencion es contar como es mi flujo de trabajo con Ansible.
-No quiero que se quede solo en mi cabeza, porque si lo comparto quizas me ayudan a mejorarlo.
-</p>
-</div>
-
-<div id="outline-container-sec-2-1-1-1" class="outline-5">
-<h5 id="sec-2-1-1-1">Configuracion inicial</h5>
-<div class="outline-text-5" id="text-2-1-1-1">
-<p>
-Como todas las herramientas que pensamos utilizar a traves del tiempo, es bueno que guardemos su configuracion. Para esto se trabajan los <i>dotfiles</i>. En este caso <a href="#ansible.cfg">1</a>
-</p>
-
-<p>
-En cuanto a mis preferencias para esta herramienta decidi configurar el <a href="#archivo-de-hosts">1</a> y el directorio donde se almacenan los <a href="#roles">1</a>.
-</p>
-
-
-<ul class="org-ul">
-<li><a id="ansible.cfg" name="ansible.cfg"></a> ~/.ansible.cfg
-</li>
-</ul>
-<pre class="example">
-[defaults]
-hostfile = &lt;path de archivos de hosts&gt;
-roles_path = &lt;path para almacenar los roles&gt;
-</pre>
-
-<ul class="org-ul">
-<li><a id="archivo-de-hosts" name="archivo-de-hosts"></a> Archivo de hosts
-</li>
-</ul>
-<p>
-La <a href="http://docs.ansible.com/intro_inventory.html#hosts-and-groups">documentación</a> explica muy bien como configurar esto, aunque quisiera agregar algo más.
-</p>
-
-<p>
-Los distintos equipos los podemos clasificar en grupos, o sin grupo tambien esta bien. Pero si o si necesitamos que el nombre del host este definido en este archivo.
-</p>
-
-
-<ul class="org-ul">
-<li><a id="roles" name="roles"></a> Path de los roles
-</li>
-</ul>
-</div>
-</div>
-
-
-
-
-<div id="outline-container-sec-2-1-1-2" class="outline-5">
-<h5 id="sec-2-1-1-2">Flujo de trabajo</h5>
-<div class="outline-text-5" id="text-2-1-1-2">
-<p>
-Yo pense en armar playbooks de la forma "divide y venceras",
+Para leer mis anotaciones entra <a href="./ansible.html">acá</a>
 </p>
 </div>
 </div>
-</div>
-
-<div id="outline-container-sec-2-1-2" class="outline-4">
-<h4 id="sec-2-1-2">Textos interesantes:</h4>
-<div class="outline-text-4" id="text-2-1-2">
-<ul class="org-ul">
-<li><a href="http://opensource.com/business/14/9/community-best-practices-new-era-open-source">community best practices new era open source</a>
-</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-sec-2-1-3" class="outline-4">
-<h4 id="sec-2-1-3">Mis aportes:</h4>
-<div class="outline-text-4" id="text-2-1-3">
-</div><div id="outline-container-sec-2-1-3-1" class="outline-5">
-<h5 id="sec-2-1-3-1"><a href="https://github.com/Nomanod/ansible-redmine">Redmine</a></h5>
-<div class="outline-text-5" id="text-2-1-3-1">
-<p>
-Un role de Ansible para poder instalar y actualizar cualquier redmine.
-Hay que tener en cuenta que la migración de la base de datos se realiza con versiones incrementales.
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-2-1-3-2" class="outline-5">
-<h5 id="sec-2-1-3-2">Bison</h5>
-</div>
-<div id="outline-container-sec-2-1-3-3" class="outline-5">
-<h5 id="sec-2-1-3-3">Php-fpm</h5>
-</div>
-</div>
-</div>
-
 <div id="outline-container-sec-2-2" class="outline-3">
 <h3 id="sec-2-2"><a id="Arch-Linux" name="Arch-Linux"></a><a href="https://www.archlinux.org/">Arch Linux</a></h3>
 <div class="outline-text-3" id="text-2-2">

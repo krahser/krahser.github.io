@@ -1,8 +1,7 @@
 #postamble {
     position: fixed;
-    width: 8%;
     bottom: 2px;
-    right: 15px;
+    right: 0px;
 }
 
 #postamble a {
