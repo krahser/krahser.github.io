@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Krahser - Inform&aacute;tica</title>
-<!-- 2015-01-29 Thu 02:58 -->
+<title>Conocimiento publico</title>
+<!-- 2015-03-04 Wed 17:31 -->
 <meta  charset="utf-8">
 <meta  name="generator" content="Org-mode">
 <meta  name="author" content="Krahser &lt;Aldo Mar\iacute{}a Vizcaino&gt;">
@@ -89,7 +89,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
 <script src="js/analytics.js" type="text/javascript"></script>
 <script type="text/javascript">
 /*
@@ -140,76 +139,78 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">Krahser - Inform&aacute;tica</h1>
+<h1 class="title">Conocimiento publico</h1>
 <nav id="table-of-contents">
 <h2>&Iacute;ndice</h2>
 <div id="text-table-of-contents">
 <ul>
 <li><a href="#sec-1">¿Qué es esto?</a></li>
-<li><a href="#sec-2">Mi profesión</a>
+<li><a href="#sec-2"><span class="underline">Mi profesión</span></a>
 <ul>
-<li><a href="#sec-2-1">Arch Linux</a></li>
-<li><a href="#sec-2-2">Emacs</a>
+<li><a href="#sec-2-1">Ansible</a>
 <ul>
-<li><a href="#sec-2-2-1">Org-mode y este sitio</a></li>
-<li><a href="#sec-2-2-2">¿Cómo uso Emacs? y ¿Qué uso de emacs?</a>
+<li><a href="#sec-2-1-1">Como trabajar con ansible</a>
 <ul>
-<li><a href="#sec-2-2-2-1">Marcadores o Bookmarks</a></li>
-<li><a href="#sec-2-2-2-2">Trabajo con archivos remotos (ssh trap)</a></li>
-<li><a href="#sec-2-2-2-3">Comodidad para utilizar archivos gpg</a></li>
-<li><a href="#sec-2-2-2-4">Prelude</a></li>
+<li><a href="#sec-2-1-1-1">Configuracion inicial</a></li>
+<li><a href="#sec-2-1-1-2">Flujo de trabajo</a></li>
 </ul>
 </li>
-<li><a href="#sec-2-2-3">Documentación</a></li>
-</ul>
-</li>
-<li><a href="#sec-2-3">ssh</a></li>
-<li><a href="#sec-2-4">systemd</a>
+<li><a href="#sec-2-1-2">Textos interesantes:</a></li>
+<li><a href="#sec-2-1-3">Mis aportes:</a>
 <ul>
-<li><a href="#sec-2-4-1">Presentacion en el LINTI</a></li>
+<li><a href="#sec-2-1-3-1">Redmine</a></li>
+<li><a href="#sec-2-1-3-2">Bison</a></li>
+<li><a href="#sec-2-1-3-3">Php-fpm</a></li>
 </ul>
 </li>
-<li><a href="#sec-2-5">Docker</a>
+</ul>
+</li>
+<li><a href="#sec-2-2">Arch Linux</a></li>
+<li><a href="#sec-2-3">Docker</a>
 <ul>
-<li><a href="#sec-2-5-1">baseimage-docker</a></li>
-<li><a href="#sec-2-5-2">Systemd en Docker</a></li>
-<li><a href="#sec-2-5-3">Informaci&oacute;n extra</a></li>
-<li><a href="#sec-2-5-4">Charla[s]</a></li>
+<li><a href="#sec-2-3-1">baseimage-docker</a></li>
+<li><a href="#sec-2-3-2">Systemd en Docker</a></li>
+<li><a href="#sec-2-3-3">Informaci&oacute;n extra</a></li>
+<li><a href="#sec-2-3-4">Charla[s]</a></li>
 </ul>
 </li>
-<li><a href="#sec-2-6">Ansible</a>
+<li><a href="#sec-2-4">  Emacs</a>
 <ul>
-<li><a href="#sec-2-6-1">Como trabajar con ansible</a>
+<li><a href="#sec-2-4-1">Org-mode y este sitio</a></li>
+<li><a href="#sec-2-4-2">¿Cómo uso Emacs? y ¿Qué uso de emacs?</a>
 <ul>
-<li><a href="#sec-2-6-1-1">Configuracion inicial</a></li>
-<li><a href="#sec-2-6-1-2">Flujo de trabajo</a></li>
+<li><a href="#sec-2-4-2-1">Marcadores o Bookmarks</a></li>
+<li><a href="#sec-2-4-2-2">Trabajo con archivos remotos (ssh trap)</a></li>
+<li><a href="#sec-2-4-2-3">Prelude</a></li>
 </ul>
 </li>
-<li><a href="#sec-2-6-2">Textos interesantes:</a></li>
+<li><a href="#sec-2-4-3">Documentación</a></li>
 </ul>
 </li>
-<li><a href="#sec-2-7">nginx</a></li>
+<li><a href="#sec-2-5">nginx</a></li>
+<li><a href="#sec-2-6">Shinken</a></li>
+<li><a href="#sec-2-7">ssh</a>
+<ul>
+<li><a href="#sec-2-7-1">Documentación</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-8">systemd</a>
+<ul>
+<li><a href="#sec-2-8-1">Documentación</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="#sec-3">Que estoy haciendo?</a>
 <ul>
-<li><a href="#sec-3-1">Ansible</a>
+<li><a href="#sec-3-1">Djbot</a>
 <ul>
-<li><a href="#sec-3-1-1">Redmine</a></li>
-<li><a href="#sec-3-1-2">Baseimage</a></li>
-<li><a href="#sec-3-1-3">Bison</a></li>
-<li><a href="#sec-3-1-4">Php-fpm</a></li>
+<li><a href="#sec-3-1-1">Resumen</a></li>
 </ul>
 </li>
-<li><a href="#sec-3-2">Djbot</a>
+<li><a href="#sec-3-2">Pymoha</a>
 <ul>
 <li><a href="#sec-3-2-1">Resumen</a></li>
-</ul>
-</li>
-<li><a href="#sec-3-3">Pymoha</a>
-<ul>
-<li><a href="#sec-3-3-1">Descripci&oacute;n</a></li>
-<li><a href="#sec-3-3-2">Estado actual</a></li>
 </ul>
 </li>
 </ul>
@@ -228,26 +229,141 @@ Quiero expresarme mejor y para eso decidi escribir.
 </p>
 
 <p>
-Este espacio esta construido con Org-mode y unas pocas configuraciones de <a href="#Emacs">2.2</a>.
+Este espacio esta construido con Org-mode y unas pocas configuraciones de <a href="#Emacs">2.4</a>.
+Le faltan características de un blog, analice utilizar jekyll, o-blog y otros pero prefiero seguir con este formato.
 </p>
 </div>
 </div>
 
 <div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2">Mi profesión</h2>
+<h2 id="sec-2"><span class="underline">Mi profesión</span></h2>
 <div class="outline-text-2" id="text-2">
 <p>
 Informático por definición con pasión por la investigación y emoción por lo desconocido.
 </p>
 
 <p>
-En mi computadora uso la distribución <a href="#Arch-Linux">Arch Linux</a>. El escritorio de mi computadora está gestionado por <a href="http://www.gnome.org/">Gnome</a> y mi navegador es <a href="https://www.google.com/chrome/browser/desktop/index.html">Chrome</a> o <a href="https://www.mozilla.org">Firefox</a> -depende del uso-. En mi entorno de trabajo utilizo <a href="#Emacs">Emacs</a>. Tengo conocimiento de los lenguajes de programación <a href="http://en.wikipedia.org/wiki/C_(programming_language)">C</a>, <a href="https://www.python.org/">Python</a>, <a href="http://php.net/">PHP</a>, <a href="https://www.java.com/en/">Java</a> - <a href="http://www.android.com/">Android</a>. Para mi trabajo aprendí <a href="#systemd">systemd</a>, <a href="#ssh">ssh</a>, <a href="#Docker">Docker</a> y <a href="#Ansible">Ansible</a>. Como servidor web <a href="#nginx">2.7</a>, alguna vez utilice <a href="http://www.apache.org/">Apache</a> y para almacenar datos probe <a href="http://www.mysql.com/">Mysql</a>, Sqlite, <a href="http://redis.io/">Redis</a>.
+En mi computadora uso la distribución <a href="#Arch-Linux">Arch Linux</a>. El escritorio de mi computadora está gestionado por <a href="http://www.gnome.org/">Gnome</a> y mi navegador es <a href="https://www.google.com/chrome/browser/desktop/index.html">Chrome</a> o <a href="https://www.mozilla.org">Firefox</a> -depende del uso-. En mi entorno de trabajo utilizo <a href="#Emacs">Emacs</a>. Tengo conocimiento de los lenguajes de programación <a href="http://en.wikipedia.org/wiki/C_(programming_language)">C</a>, <a href="https://www.python.org/">Python</a>, <a href="http://php.net/">PHP</a>, <a href="https://www.java.com/en/">Java</a> - <a href="http://www.android.com/">Android</a>. Para mi trabajo aprendí <a href="#systemd">systemd</a>, <a href="#ssh">ssh</a>, <a href="#Docker">Docker</a> y <a href="#Ansible">Ansible</a>. Como servidor web <a href="#nginx">nginx</a>, alguna vez utilice <a href="http://www.apache.org/">Apache</a> y para almacenar datos probe <a href="http://www.mysql.com/">Mysql</a>, Sqlite, <a href="http://redis.io/">Redis</a>.
+</p>
+</div>
+<div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><a id="Ansible" name="Ansible"></a>Ansible</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Ansible is the simplest way to automate IT.
+</p>
+
+<p>
+Estoy aprendiendo a usar esta herramienta, ya que la quiero para realizar mi trabajo de tesis.
+</p>
+
+<ul class="org-ul">
+<li><code>¿Qué es ansible?</code>
+</li>
+</ul>
+<p>
+Una herramienta de administración de computadoras que utiliza ssh <i>-es decir que no necesitamos instalar un agente en nuestros equipos-</i> para poder configurarlos, desplegar aplicaciones y asegurarnos su estado
 </p>
 </div>
 
-<div id="outline-container-sec-2-1" class="outline-3">
-<h3 id="sec-2-1"><a id="Arch-Linux" name="Arch-Linux"></a><a href="https://www.archlinux.org/">Arch Linux</a></h3>
-<div class="outline-text-3" id="text-2-1">
+<div id="outline-container-sec-2-1-1" class="outline-4">
+<h4 id="sec-2-1-1">Como trabajar con ansible</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<p>
+Mi intencion es contar como es mi flujo de trabajo con Ansible.
+No quiero que se quede solo en mi cabeza, porque si lo comparto quizas me ayudan a mejorarlo.
+</p>
+</div>
+
+<div id="outline-container-sec-2-1-1-1" class="outline-5">
+<h5 id="sec-2-1-1-1">Configuracion inicial</h5>
+<div class="outline-text-5" id="text-2-1-1-1">
+<p>
+Como todas las herramientas que pensamos utilizar a traves del tiempo, es bueno que guardemos su configuracion. Para esto se trabajan los <i>dotfiles</i>. En este caso <a href="#ansible.cfg">1</a>
+</p>
+
+<p>
+En cuanto a mis preferencias para esta herramienta decidi configurar el <a href="#archivo-de-hosts">1</a> y el directorio donde se almacenan los <a href="#roles">1</a>.
+</p>
+
+
+<ul class="org-ul">
+<li><a id="ansible.cfg" name="ansible.cfg"></a> ~/.ansible.cfg
+</li>
+</ul>
+<pre class="example">
+[defaults]
+hostfile = &lt;path de archivos de hosts&gt;
+roles_path = &lt;path para almacenar los roles&gt;
+</pre>
+
+<ul class="org-ul">
+<li><a id="archivo-de-hosts" name="archivo-de-hosts"></a> Archivo de hosts
+</li>
+</ul>
+<p>
+La <a href="http://docs.ansible.com/intro_inventory.html#hosts-and-groups">documentación</a> explica muy bien como configurar esto, aunque quisiera agregar algo más.
+</p>
+
+<p>
+Los distintos equipos los podemos clasificar en grupos, o sin grupo tambien esta bien. Pero si o si necesitamos que el nombre del host este definido en este archivo.
+</p>
+
+
+<ul class="org-ul">
+<li><a id="roles" name="roles"></a> Path de los roles
+</li>
+</ul>
+</div>
+</div>
+
+
+
+
+<div id="outline-container-sec-2-1-1-2" class="outline-5">
+<h5 id="sec-2-1-1-2">Flujo de trabajo</h5>
+<div class="outline-text-5" id="text-2-1-1-2">
+<p>
+Yo pense en armar playbooks de la forma "divide y venceras",
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-1-2" class="outline-4">
+<h4 id="sec-2-1-2">Textos interesantes:</h4>
+<div class="outline-text-4" id="text-2-1-2">
+<ul class="org-ul">
+<li><a href="http://opensource.com/business/14/9/community-best-practices-new-era-open-source">community best practices new era open source</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-2-1-3" class="outline-4">
+<h4 id="sec-2-1-3">Mis aportes:</h4>
+<div class="outline-text-4" id="text-2-1-3">
+</div><div id="outline-container-sec-2-1-3-1" class="outline-5">
+<h5 id="sec-2-1-3-1"><a href="https://github.com/Nomanod/ansible-redmine">Redmine</a></h5>
+<div class="outline-text-5" id="text-2-1-3-1">
+<p>
+Un role de Ansible para poder instalar y actualizar cualquier redmine.
+Hay que tener en cuenta que la migración de la base de datos se realiza con versiones incrementales.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-1-3-2" class="outline-5">
+<h5 id="sec-2-1-3-2">Bison</h5>
+</div>
+<div id="outline-container-sec-2-1-3-3" class="outline-5">
+<h5 id="sec-2-1-3-3">Php-fpm</h5>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><a id="Arch-Linux" name="Arch-Linux"></a><a href="https://www.archlinux.org/">Arch Linux</a></h3>
+<div class="outline-text-3" id="text-2-2">
 <p>
 Arch Linux es una distribución muy liviana y potente que permite estar siempre en las ultimas revisiones de software.
 </p>
@@ -269,7 +385,7 @@ Arch Linux es una distribución muy liviana y potente que permite estar siempre 
 <ul class="org-ul">
 <li>Hay que dedicarle un tiempo inicial en la configuración
 </li>
-<li>La instalación requiere un poquito de amor 
+<li>La instalación requiere un poquito de amor
 <i>dedicación y paciencia</i>
 </li>
 </ul>
@@ -277,59 +393,146 @@ Arch Linux es una distribución muy liviana y potente que permite estar siempre 
 </ul>
 </div>
 </div>
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><a id="Docker" name="Docker"></a>Docker</h3>
+<div class="outline-text-3" id="text-2-3">
+<blockquote>
+<p>
+The Docker Engine - our lightweight and powerful open source container
+virtualization technology combined with a work flow for building and
+containerizing your applications. &#x2013; <a href="https://docs.docker.com/">Docker docs</a>
+</p>
+</blockquote>
 
-<div id="outline-container-sec-2-2" class="outline-3">
-<h3 id="sec-2-2"><a id="Emacs" name="Emacs"></a><a href="http://www.gnu.org/software/emacs/">Emacs</a></h3>
-<div class="outline-text-3" id="text-2-2">
+<p>
+Docker nos permite el funcionamiento aislado de otra
+distribuci&oacute;n para poder ejecutar un conjunto de aplicaciones, probar
+entornos de trabajo, o lo que se nos ocurra en un sistema aislado.
+</p>
+
+<p>
+Algo usual en docker es ejecutar un solo proceso, si queremos
+agregarle algun tipo de administraci&oacute;n remota, vamos a necesitar de un
+servicio como por ejemplo ssh. Cuando se ejecutan dos o mas procesos
+en una computadora es necesario que saber cuando termino la ejecuci&oacute;n,
+para liberar la memoria por ejemplo.
+</p>
+</div>
+
+<div id="outline-container-sec-2-3-1" class="outline-4">
+<h4 id="sec-2-3-1">baseimage-docker</h4>
+<div class="outline-text-4" id="text-2-3-1">
+<p>
+Esta imagen nos permite generar contenedores que ya tienen el servicio
+de ssh funcionando, y que ademas se pueden agregar servicios al inicio
+con un script en /etc/service/&lt;SERVICE NAME&gt;/run
+</p>
+
+<p>
+A continuacion algunas lecturas que me parecieron importantes
+</p>
+
+<ul class="org-ul">
+<li><a href="http://phusion.github.io/baseimage-docker/">baseimage-docker</a>
+</li>
+<li><a href="https://news.ycombinator.com/item?id=7950326">Discusion sobre baseimage-docker</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-2-3-2" class="outline-4">
+<h4 id="sec-2-3-2">Systemd en Docker</h4>
+<div class="outline-text-4" id="text-2-3-2">
+<p>
+Tambi&eacute;n se me ocurrio controlar los servicios dentro de docker, pero
+con una peque&ntilde;a busqueda me di cuenta de que:
+</p>
+<ul class="org-ul">
+<li>Ya se le habia ocurrido a alguien (<a href="http://developerblog.redhat.com/2014/05/05/running-systemd-within-docker-container/">Referencia</a>)
+</li>
+<li>Y tenia sus complicaciones, <a href="https://github.com/docker/docker/issues/3629">Issues en Github</a>
+  <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1033604">Issues en Red hat</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-2-3-3" class="outline-4">
+<h4 id="sec-2-3-3">Informaci&oacute;n extra</h4>
+<div class="outline-text-4" id="text-2-3-3">
+<ul class="org-ul">
+<li><a href="http://highscalability.com/blog/2014/4/8/microservices-not-a-free-lunch.html">Algo sobre microservicios</a>
+</li>
+<li><a href="https://coreos.com/docs/launching-containers/launching/getting-started-with-systemd/">CoreOS</a> &#x2013; Esto me lo conto <a href="https://github.com/farfanoide">@farfanoide</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-2-3-4" class="outline-4">
+<h4 id="sec-2-3-4">Charla[s]</h4>
+<div class="outline-text-4" id="text-2-3-4">
+<p>
+<a href="http://laplatajs.github.io/docker_node">docker y un sandbox node.js</a>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-4" class="outline-3">
+<h3 id="sec-2-4"><a id="Emacs" name="Emacs"></a><a href="http://www.gnu.org/software/emacs/">  Emacs</a></h3>
+<div class="outline-text-3" id="text-2-4">
 <p>
 Emacs es un editor de texto muy potente. Pero a no desesperar en aprender, mejor hay que dejar que el día a día nos muestre en que nos puede ser util.
-El editor es bastante complejo, entonces estudiarlo por completo no tiene sentido. Es mejor aprender como usar Emacs para nuestro trabajo especifico. Una excelente practica es hacer el tutorial. 
+El editor es bastante complejo, entonces estudiarlo por completo no tiene sentido. Es mejor aprender como usar Emacs para nuestro trabajo especifico. Una excelente practica es hacer el tutorial.
 </p>
 <pre class="example">
 Ctrl+h t
 </pre>
 
 <p>
-Esto significa que con la tecla Ctrl precionada también lo hacemos en la h. Esto nos permite manejar la ayuda y precionando la t seleccionamos el tutorial.
+Esto significa que con la tecla Ctrl precionada también lo hacemos en la h.
+Esto nos permite manejar la ayuda y luego con la tecla t seleccionamos el tutorial.
 </p>
 </div>
 
-<div id="outline-container-sec-2-2-1" class="outline-4">
-<h4 id="sec-2-2-1">Org-mode y este sitio</h4>
-<div class="outline-text-4" id="text-2-2-1">
+<div id="outline-container-sec-2-4-1" class="outline-4">
+<h4 id="sec-2-4-1">Org-mode y este sitio</h4>
+<div class="outline-text-4" id="text-2-4-1">
 <p>
-Para escribir esto lei <a href="http://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html">Publishing Org-mode files to HTML</a> y      <a href="https://github.com/SebastianRose/org-info-js/blob/master/index.org">org-info-js</a>.
+Para escribir esto leí <a href="http://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html">Publishing Org-mode files to HTML</a> y
+<a href="https://github.com/SebastianRose/org-info-js/blob/master/index.org">org-info-js</a>.
 </p>
 
 <div class="org-src-container">
 
 <pre class="src src-emacs-lisp">(setq org-publish-project-alist
       '(
-	("krahser-notes"
-	 :base-directory "~/path/org/"
-	 :publishing-directory "~/path/html/"
-	 :publishing-function org-html-publish-to-html
-	 :recursive t
-	 :auto-sitemap t
-	 :sitemap-filename "sitemap.org" 
-	 :sitemap-title "Sitemap"
-	 :headline-levels 4 
-	 :preparpation-function org-mode-blog-prepare
-	 :with-tables t
-	 :with-tags t
-	 :html-html5-fancy t
-	 :html-postamble org-postamble
-	 :html-preamble nil
-	 :html-container: section
-	 )
-	("krahser-static"
-	 :base-directory "~/path/org"
-	 :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\"
-	 :publishing-directory "~/path/html/"
-	 :recursive t
-	 :publishing-function org-publish-attachment
-	 )
-      ("krahser.github.io" 
+        ("krahser-notes"
+         :base-directory "~/path/org/"
+         :publishing-directory "~/path/html/"
+         :publishing-function org-html-publish-to-html
+         :recursive t
+         :auto-sitemap t
+         :sitemap-filename "sitemap.org"
+         :sitemap-title "Sitemap"
+         :headline-levels 4
+         :preparpation-function org-mode-blog-prepare
+         :with-tables t
+         :with-tags t
+         :html-html5-fancy t
+         :html-postamble org-postamble
+         :html-preamble nil
+         :html-container: section
+         )
+        ("krahser-static"
+         :base-directory "~/path/org"
+         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\"
+         :publishing-directory "~/path/html/"
+         :recursive t
+         :publishing-function org-publish-attachment
+         )
+      ("krahser.github.io"
        :components ("krahser-notes" "krahser-static"))
 )
 </pre>
@@ -337,23 +540,35 @@ Para escribir esto lei <a href="http://orgmode.org/worg/org-tutorials/org-publis
 </div>
 </div>
 
-<div id="outline-container-sec-2-2-2" class="outline-4">
-<h4 id="sec-2-2-2">¿Cómo uso Emacs? y ¿Qué uso de emacs?</h4>
-<div class="outline-text-4" id="text-2-2-2">
+<div id="outline-container-sec-2-4-2" class="outline-4">
+<h4 id="sec-2-4-2">¿Cómo uso Emacs? y ¿Qué uso de emacs?</h4>
+<div class="outline-text-4" id="text-2-4-2">
 <p>
 Primero tengo que aclarar que estoy en la versión 24.4-2.
-Encontre una extensión para gnome <a href="https://extensions.gnome.org/extension/361/emacs-manager/">Emacs Manager</a>. Esta extención nos permite crear tantos demonios cómo nos parecen necesarios.
+Encontre una extensión para gnome <a href="https://extensions.gnome.org/extension/361/emacs-manager/">Emacs Manager</a>.
+Esta extención nos permite crear tantos demonios cómo nos parecen necesarios.
 </p>
 
 <p>
-Conoci Org-mode por <a href="http://kalgan.cc/">Rul</a> y eso me sirvio para seguir investigando, asi llegue a los <a href="#marcadores">2.2.2.1</a> que incluso me permitian guardar referencias a <a href="#archivos-remotos">2.2.2.2</a>, por lo general utilizo claves ssh pero aveces es necesario agregar una contraseña de sudo y para eso aprendí de los archivos <a href="#gpg">2.2.2.3</a> y en particular de authinfo.gpg
+Conoci Org-mode por <a href="http://kalgan.cc/">Rul</a> y eso me sirvio para seguir investigando, asi llegue a los <a href="#marcadores">2.4.2.1</a> que incluso me permitian guardar referencias a <a href="#archivos-remotos">2.4.2.2</a>, por lo general utilizo claves ssh pero aveces es necesario agregar una contraseña de sudo y para eso aprendí de los archivos <i>gpg</i> y en particular de authinfo.gpg
 </p>
 </div>
 
+<div id="outline-container-sec-2-4-2-1" class="outline-5">
+<h5 id="sec-2-4-2-1"><a id="marcadores" name="marcadores"></a>Marcadores o Bookmarks</h5>
+<div class="outline-text-5" id="text-2-4-2-1">
+<p>
+En caso de que quieran guardar el backup de los bookmarks el archivo
+esta en
+</p>
 
-<div id="outline-container-sec-2-2-2-1" class="outline-5">
-<h5 id="sec-2-2-2-1"><a id="marcadores" name="marcadores"></a>Marcadores o Bookmarks</h5>
-<div class="outline-text-5" id="text-2-2-2-1">
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(describe-variable 'bookmark-default-file)
+</pre>
+</div>
+
+
 <table border="2" rules="all" frame="border">
 
 
@@ -398,20 +613,19 @@ Conoci Org-mode por <a href="http://kalgan.cc/">Rul</a> y eso me sirvio para seg
 </div>
 </div>
 
-
-<div id="outline-container-sec-2-2-2-2" class="outline-5">
-<h5 id="sec-2-2-2-2"><a id="archivos-remotos" name="archivos-remotos"></a>Trabajo con archivos remotos (ssh trap)</h5>
-<div class="outline-text-5" id="text-2-2-2-2">
+<div id="outline-container-sec-2-4-2-2" class="outline-5">
+<h5 id="sec-2-4-2-2"><a id="archivos-remotos" name="archivos-remotos"></a>Trabajo con archivos remotos (ssh trap)</h5>
+<div class="outline-text-5" id="text-2-4-2-2">
 <p>
 Agregando esta configuracion se pueden realizar conexiones ssh y hacer sudo
 </p>
 <div class="org-src-container">
 
-<pre class="src src-elisp">(require 'tramp)
-	 (add-to-list 'tramp-default-proxies-alist
-	     '(nil "\\`root\\'" "/ssh:%h:"))
-	 (add-to-list 'tramp-default-proxies-alist
-	     '((regexp-quote (system-name)) nil nil))
+<pre class="src src-emacs-lisp">(require 'tramp)
+         (add-to-list 'tramp-default-proxies-alist
+             '(nil "\\`root\\'" "/ssh:%h:"))
+         (add-to-list 'tramp-default-proxies-alist
+             '((regexp-quote (system-name)) nil nil))
 </pre>
 </div>
 <p>
@@ -420,244 +634,143 @@ Esto lo aprendi mirando en <a href="http://stackoverflow.com/questions/2177687/o
 </div>
 </div>
 
-<div id="outline-container-sec-2-2-2-3" class="outline-5">
-<h5 id="sec-2-2-2-3"><a id="gpg" name="gpg"></a> Comodidad para utilizar archivos gpg</h5>
-</div>
-<div id="outline-container-sec-2-2-2-4" class="outline-5">
-<h5 id="sec-2-2-2-4">Prelude</h5>
-<div class="outline-text-5" id="text-2-2-2-4">
+<div id="outline-container-sec-2-4-2-3" class="outline-5">
+<h5 id="sec-2-4-2-3">Prelude</h5>
+<div class="outline-text-5" id="text-2-4-2-3">
 <p>
-Estoy organizando mis dotfiles y buscando como hacer para tener los mismos paquetes en las instalaciones de emacs llegue primero a <a href="http://stackoverflow.com/questions/10092322/how-to-automatically-install-emacs-packages-by-specifying-a-list-of-package-name">stackpverflow</a> y despues a <a href="https://github.com/bbatsov/prelude">prelude</a>
-Tambien comparto este articulo que me parecio interesante <a href="http://batsov.com/articles/2012/02/19/package-management-in-emacs-the-good-the-bad-and-the-ugly/">package management in emacs the good the bad and the ugly</a>
+Estoy organizando mis dotfiles y buscando como hacer para tener los
+mismos paquetes en las instalaciones de emacs llegue primero a
+<a href="http://stackoverflow.com/questions/10092322/how-to-automatically-install-emacs-packages-by-specifying-a-list-of-package-name">stackoverflow</a> y después a <a href="https://github.com/bbatsov/prelude">prelude</a> La verdad que prelude es un
+excelente punto de partida, es algo que hay que probar antes de
+empezar con las configuraciones personales.
+</p>
+
+<p>
+Para agregar las configuraciones personales a prelude hay que agregar
+tu archivo en
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(describe-variable 'prelude-personal-preload-dir)
+</pre>
+</div>
+
+
+<p>
+También comparto este artículo que me parece interesante <a href="http://batsov.com/articles/2012/02/19/package-management-in-emacs-the-good-the-bad-and-the-ugly/">package
+management in emacs the good the bad and the ugly</a>.
 </p>
 </div>
 </div>
 </div>
-<div id="outline-container-sec-2-2-3" class="outline-4">
-<h4 id="sec-2-2-3">Documentación</h4>
-<div class="outline-text-4" id="text-2-2-3">
+
+<div id="outline-container-sec-2-4-3" class="outline-4">
+<h4 id="sec-2-4-3">Documentación</h4>
+<div class="outline-text-4" id="text-2-4-3">
 <p>
 Voy a ir dejando todo lo que miro y me parece interesante
 </p>
 <ul class="org-ul">
 <li><a href="https://www.youtube.com/watch?v=1-dUkyn_fZA">Emacs+ org-mode + Python</a>
 </li>
+<li><a href="https://github.com/bard/mozrepl/wiki/Emacs-integration">Emacs mozrpl</a>
+</li>
 </ul>
-</div>
-</div>
-</div>
-<div id="outline-container-sec-2-3" class="outline-3">
-<h3 id="sec-2-3"><a id="ssh" name="ssh"></a>ssh</h3>
-<div class="outline-text-3" id="text-2-3">
 <p>
-<a href="http://en.wikipedia.org/wiki/Secure_Shell">Documentaci&oacute;n oficial</a>
+Functions and Keybindings
 </p>
+<table border="2" rules="all" frame="border">
 
-<p>
-<a href="http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/">Simplify your life with an ssh config file</a>
-</p>
-</div>
-</div>
-<div id="outline-container-sec-2-4" class="outline-3">
-<h3 id="sec-2-4"><a id="systemd" name="systemd"></a>systemd</h3>
-<div class="outline-text-3" id="text-2-4">
-<p>
-Es un administrador del sistema para kernel Linux, que nos
-permite administrar todos los servicios que queremos utilizar, nos
-facilita la lectura de logs y nos permite enjaular aplicaciones.
-</p>
-</div>
 
-<div id="outline-container-sec-2-4-1" class="outline-4">
-<h4 id="sec-2-4-1"><a href="http://informaticorenegado.com.ar/systemd">Presentacion en el LINTI</a></h4>
-</div>
-</div>
+<colgroup>
+<col  class="left">
 
+<col  class="left">
+
+<col  class="left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">function</th>
+<th scope="col" class="left">name</th>
+<th scope="col" class="left">keybinding</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">get current tab’s url</td>
+<td class="left">moz-controller-get-current-url</td>
+<td class="left">C-c m l</td>
+</tr>
+
+<tr>
+<td class="left">refresh</td>
+<td class="left">moz-controller-page-refresh</td>
+<td class="left">C-c m R</td>
+</tr>
+
+<tr>
+<td class="left">scroll down</td>
+<td class="left">moz-controller-page-down</td>
+<td class="left">C-c m n</td>
+</tr>
+
+<tr>
+<td class="left">scroll up</td>
+<td class="left">moz-controller-page-up</td>
+<td class="left">C-c m p</td>
+</tr>
+
+<tr>
+<td class="left">zoom in</td>
+<td class="left">moz-controller-zoom-in</td>
+<td class="left">C-c m +</td>
+</tr>
+
+<tr>
+<td class="left">zoom out</td>
+<td class="left">moz-controller-zoom-out</td>
+<td class="left">C-c m -</td>
+</tr>
+
+<tr>
+<td class="left">zoom reset</td>
+<td class="left">moz-controller-zoom-reset</td>
+<td class="left">C-c m 0</td>
+</tr>
+
+<tr>
+<td class="left">switch to previous tab</td>
+<td class="left">moz-controller-tab-previous</td>
+<td class="left">C-c m b</td>
+</tr>
+
+<tr>
+<td class="left">switch to next tab</td>
+<td class="left">moz-controller-tab-next</td>
+<td class="left">C-c m f</td>
+</tr>
+
+<tr>
+<td class="left">close current tab</td>
+<td class="left">moz-controller-tab-close</td>
+<td class="left">C-c m k</td>
+</tr>
+
+<tr>
+<td class="left">view page source code</td>
+<td class="left">moz-controller-view-page-source</td>
+<td class="left">C-c m u</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
 <div id="outline-container-sec-2-5" class="outline-3">
-<h3 id="sec-2-5"><a id="Docker" name="Docker"></a>Docker</h3>
+<h3 id="sec-2-5"><a id="nginx" name="nginx"></a><a href="http://nginx.org/">nginx</a></h3>
 <div class="outline-text-3" id="text-2-5">
-<blockquote>
-<p>
-The Docker Engine - our lightweight and powerful open source container
-virtualization technology combined with a work flow for building and
-containerizing your applications. &#x2013; <a href="https://docs.docker.com/">Docker docs</a>
-</p>
-</blockquote>
-
-<p>
-Docker nos permite el funcionamiento aislado de otra
-distribuci&oacute;n para poder ejecutar un conjunto de aplicaciones, probar
-entornos de trabajo, o lo que se nos ocurra en un sistema aislado.
-</p>
-
-<p>
-Algo usual en docker es ejecutar un solo proceso, si queremos
-agregarle algun tipo de administraci&oacute;n remota, vamos a necesitar de un
-servicio como por ejemplo ssh. Cuando se ejecutan dos o mas procesos
-en una computadora es necesario que saber cuando termino la ejecuci&oacute;n,
-para liberar la memoria por ejemplo. 
-</p>
-</div>
-
-<div id="outline-container-sec-2-5-1" class="outline-4">
-<h4 id="sec-2-5-1">baseimage-docker</h4>
-<div class="outline-text-4" id="text-2-5-1">
-<p>
-Esta imagen nos permite generar contenedores que ya tienen el servicio
-de ssh funcionando, y que ademas se pueden agregar servicios al inicio
-con un script en /etc/service/&lt;SERVICE NAME&gt;/run
-</p>
-
-<p>
-A continuacion algunas lecturas que me parecieron importantes
-</p>
-
-<ul class="org-ul">
-<li><a href="http://phusion.github.io/baseimage-docker/">baseimage-docker</a>
-</li>
-<li><a href="https://news.ycombinator.com/item?id=7950326">Discusion sobre baseimage-docker</a>
-</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-sec-2-5-2" class="outline-4">
-<h4 id="sec-2-5-2">Systemd en Docker</h4>
-<div class="outline-text-4" id="text-2-5-2">
-<p>
-Tambi&eacute;n se me ocurrio controlar los servicios dentro de docker, pero
-con una peque&ntilde;a busqueda me di cuenta de que:
-</p>
-<ul class="org-ul">
-<li>Ya se le habia ocurrido a alguien (<a href="http://developerblog.redhat.com/2014/05/05/running-systemd-within-docker-container/">Referencia</a>)
-</li>
-<li>Y tenia sus complicaciones, <a href="https://github.com/docker/docker/issues/3629">Issues en Github</a>
-  <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1033604">Issues en Red hat</a>
-</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-sec-2-5-3" class="outline-4">
-<h4 id="sec-2-5-3">Informaci&oacute;n extra</h4>
-<div class="outline-text-4" id="text-2-5-3">
-<ul class="org-ul">
-<li><a href="http://highscalability.com/blog/2014/4/8/microservices-not-a-free-lunch.html">Algo sobre microservicios</a>
-</li>
-<li><a href="https://coreos.com/docs/launching-containers/launching/getting-started-with-systemd/">CoreOS</a> &#x2013; Esto me lo conto <a href="https://github.com/farfanoide">@farfanoide</a>
-</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-sec-2-5-4" class="outline-4">
-<h4 id="sec-2-5-4">Charla[s]</h4>
-<div class="outline-text-4" id="text-2-5-4">
-<p>
-<a href="http://laplatajs.github.io/docker_node">docker y un sandbox node.js</a>
-</p>
-</div>
-</div>
-</div>
-
-<div id="outline-container-sec-2-6" class="outline-3">
-<h3 id="sec-2-6"><a id="Ansible" name="Ansible"></a>Ansible</h3>
-<div class="outline-text-3" id="text-2-6">
-<p>
-Ansible is the simplest way to automate IT.
-</p>
-
-<p>
-Estoy aprendiendo a usar esta herramienta, ya que la quiero para realizar mi trabajo de tesis.
-</p>
-
-<ul class="org-ul">
-<li><code>¿Qué es ansible?</code>
-</li>
-</ul>
-<p>
-Una herramienta de administración de computadoras que utiliza ssh <i>-es decir que no necesitamos instalar un agente en nuestros equipos-</i> para poder configurarlos, desplegar aplicaciones y asegurarnos su estado
-</p>
-</div>
-
-<div id="outline-container-sec-2-6-1" class="outline-4">
-<h4 id="sec-2-6-1">Como trabajar con ansible</h4>
-<div class="outline-text-4" id="text-2-6-1">
-<p>
-Mi intencion es contar como es mi flujo de trabajo con Ansible.
-No quiero que se quede solo en mi cabeza, porque si lo comparto quizas me ayudan a mejorarlo.
-</p>
-</div>
-
-<div id="outline-container-sec-2-6-1-1" class="outline-5">
-<h5 id="sec-2-6-1-1">Configuracion inicial</h5>
-<div class="outline-text-5" id="text-2-6-1-1">
-<p>
-Como todas las herramientas que pensamos utilizar a traves del tiempo, es bueno que guardemos su configuracion. Para esto se trabajan los <i>dotfiles</i>. En este caso <a href="#ansible.cfg">1</a>
-</p>
-
-<p>
-En cuanto a mis preferencias para esta herramienta decidi configurar el <a href="#archivo-de-hosts">1</a> y el directorio donde se almacenan los <a href="#roles">1</a>.
-</p>
-
-
-<ul class="org-ul">
-<li><a id="ansible.cfg" name="ansible.cfg"></a> ~/.ansible.cfg
-</li>
-</ul>
-<pre class="example">
-[defaults]
-hostfile = &lt;path de archivos de hosts&gt;
-roles_path = &lt;path para almacenar los roles&gt;
-</pre>
-
-<ul class="org-ul">
-<li><a id="archivo-de-hosts" name="archivo-de-hosts"></a> Archivo de hosts
-</li>
-</ul>
-<p>
-La <a href="http://docs.ansible.com/intro_inventory.html#hosts-and-groups">documentación</a> explica muy bien como configurar esto, aunque quisiera agregar algo más.
-</p>
-
-<p>
-Los distintos equipos los podemos clasificar en grupos, o sin grupo tambien esta bien. Pero si o si necesitamos que el nombre del host este definido en este archivo.
-</p>
-
-
-<ul class="org-ul">
-<li><a id="roles" name="roles"></a> Path de los roles
-</li>
-</ul>
-</div>
-</div>
-
-
-
-
-<div id="outline-container-sec-2-6-1-2" class="outline-5">
-<h5 id="sec-2-6-1-2">Flujo de trabajo</h5>
-<div class="outline-text-5" id="text-2-6-1-2">
-<p>
-Yo pense en armar playbooks de la forma "divide y venceras", 
-</p>
-</div>
-</div>
-</div>
-
-<div id="outline-container-sec-2-6-2" class="outline-4">
-<h4 id="sec-2-6-2">Textos interesantes:</h4>
-<div class="outline-text-4" id="text-2-6-2">
-<ul class="org-ul">
-<li><a href="http://opensource.com/business/14/9/community-best-practices-new-era-open-source">community best practices new era open source</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-
-<div id="outline-container-sec-2-7" class="outline-3">
-<h3 id="sec-2-7"><a id="nginx" name="nginx"></a><a href="http://nginx.org/">nginx</a></h3>
-<div class="outline-text-3" id="text-2-7">
 <p>
 nginx es un servidor web muy potente que nos permite procesar
 peticiones utilizando una maquina de estados y derivarla al encargado
@@ -677,7 +790,7 @@ much more efficient on heavy-loaded frontends than traditional Apache.
 
 <p>
 The FastCGI implementation in sapi/cgi requires third-party
-applications like spawn-fcgi or mod<sub>fcgi</sub> to manage its processes and
+applications like spawn-fcgi or mod_fcgi to manage its processes and
 is a 'core' implementation of FastCGI protocol lacking a lot of
 features that are crucial for many complex real-life applications. &#x2014; <a href="https://wiki.php.net/rfc/fpm">fpm</a>
 </p>
@@ -690,9 +803,88 @@ features that are crucial for many complex real-life applications. &#x2014; <a h
 <li><a href="./Ansible/docker-install.yml">Instalar docker en Debian Wheezy 7</a>
 </li>
 <li>Mi primer role <a href="https://galaxy.ansible.com/list#/roles/1959">docker-baseimage</a>
-  Este role sirve para crear distintas imagenes de Docker utilizando baseimage 
+  Este role sirve para crear distintas imagenes de Docker utilizando baseimage
 </li>
 </ul>
+</div>
+</div>
+<div id="outline-container-sec-2-6" class="outline-3">
+<h3 id="sec-2-6"><a id="shinken" name="shinken"></a> Shinken</h3>
+<div class="outline-text-3" id="text-2-6">
+<p>
+Tengo que publicar el gist de como se instala.
+Armar un role que me permita configurar
+</p>
+
+<p>
+Un problema que me paso del foro y parece que di una respuesta <a href="http://forum.shinken-monitoring.org/threads/1341-create_reversed_list-not-defined">create_reversed_list</a>
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2-7" class="outline-3">
+<h3 id="sec-2-7"><a id="ssh" name="ssh"></a>ssh</h3>
+<div class="outline-text-3" id="text-2-7">
+<p>
+Secure shell es un protocolo utilizado para la administración remota
+de equipos.
+</p>
+
+<p>
+De mi experiencia puedo recomendar utilizar claves ssh y armar el
+archivo de configuración local.
+</p>
+
+<pre class="example">
+~/.ssh/config
+</pre>
+</div>
+
+<div id="outline-container-sec-2-7-1" class="outline-4">
+<h4 id="sec-2-7-1">Documentación</h4>
+<div class="outline-text-4" id="text-2-7-1">
+<ul class="org-ul">
+<li><a href="http://en.wikipedia.org/wiki/Secure_Shell">Documentación oficial</a>
+</li>
+<li><a href="http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/">Simplify your life with an ssh config file</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-8" class="outline-3">
+<h3 id="sec-2-8"><a id="systemd" name="systemd"></a>systemd</h3>
+<div class="outline-text-3" id="text-2-8">
+<p>
+Es un administrador del sistema para kernel Linux, que nos
+permite administrar todos los servicios que queremos utilizar, nos
+facilita la lectura de logs y nos permite enjaular aplicaciones.
+</p>
+
+<p>
+Convierte el sistema en una maquina de estados y eso nos permite por
+ejemplo permitir que un puerto este disponible y en el momento que
+llega la primer petición iniciar el servicio.
+</p>
+
+<p>
+Para que esto suceda el servicio tiene que ser capaz de recibir el socket.
+Por eso se necesita la colaboracion de la comunidad para que esta sistema pueda explotar todo su potencial.
+</p>
+</div>
+
+<div id="outline-container-sec-2-8-1" class="outline-4">
+<h4 id="sec-2-8-1">Documentación</h4>
+<div class="outline-text-4" id="text-2-8-1">
+<ul class="org-ul">
+<li><a href="http://0pointer.de/blog">Blog del autor</a>
+</li>
+<li></li>
+<li><a href="http://0pointer.de/blog/projects/socket-activated-containers.html">socket-activated-cotainers</a>
+</li>
+<li><a href="http://informaticorenegado.com.ar/systemd">Presentacion en el LINTI</a>
+</li>
+</ul>
+</div>
 </div>
 </div>
 </div>
@@ -701,33 +893,11 @@ features that are crucial for many complex real-life applications. &#x2014; <a h
 <h2 id="sec-3">Que estoy haciendo?</h2>
 <div class="outline-text-2" id="text-3">
 </div><div id="outline-container-sec-3-1" class="outline-3">
-<h3 id="sec-3-1">Ansible</h3>
+<h3 id="sec-3-1"><a href="https://github.com/krahser/djbot">Djbot</a></h3>
 <div class="outline-text-3" id="text-3-1">
 </div><div id="outline-container-sec-3-1-1" class="outline-4">
-<h4 id="sec-3-1-1"><a href="https://github.com/Nomanod/ansible-redmine">Redmine</a></h4>
+<h4 id="sec-3-1-1">Resumen</h4>
 <div class="outline-text-4" id="text-3-1-1">
-<p>
-Un role de Ansible para poder instalar y actualizar cualquier redmine.
-</p>
-</div>
-</div>
-<div id="outline-container-sec-3-1-2" class="outline-4">
-<h4 id="sec-3-1-2">Baseimage</h4>
-</div>
-<div id="outline-container-sec-3-1-3" class="outline-4">
-<h4 id="sec-3-1-3">Bison</h4>
-</div>
-<div id="outline-container-sec-3-1-4" class="outline-4">
-<h4 id="sec-3-1-4">Php-fpm</h4>
-</div>
-</div>
-
-<div id="outline-container-sec-3-2" class="outline-3">
-<h3 id="sec-3-2"><a href="https://github.com/krahser/djbot">Djbot</a></h3>
-<div class="outline-text-3" id="text-3-2">
-</div><div id="outline-container-sec-3-2-1" class="outline-4">
-<h4 id="sec-3-2-1">Resumen</h4>
-<div class="outline-text-4" id="text-3-2-1">
 <blockquote>
 <p>
 La necesidad de optimizar las tareas de mantenimiento y uso remoto en
@@ -748,12 +918,12 @@ permite ejecutar tareas programadas en la interfaz web. &#x2013; <a href="http:/
 </div>
 </div>
 
-<div id="outline-container-sec-3-3" class="outline-3">
-<h3 id="sec-3-3">Pymoha</h3>
-<div class="outline-text-3" id="text-3-3">
-</div><div id="outline-container-sec-3-3-1" class="outline-4">
-<h4 id="sec-3-3-1">Descripci&oacute;n</h4>
-<div class="outline-text-4" id="text-3-3-1">
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2">Pymoha</h3>
+<div class="outline-text-3" id="text-3-2">
+</div><div id="outline-container-sec-3-2-1" class="outline-4">
+<h4 id="sec-3-2-1">Resumen</h4>
+<div class="outline-text-4" id="text-3-2-1">
 <blockquote>
 <p>
 Es una aplicación que permite controlar las acciones del mouse con
@@ -775,16 +945,6 @@ cambiarle el sentido de desplazamiento al puntero, o ejecutar alguna
 acción. &#x2013; <a href="https://lihuen.info.unlp.edu.ar/index.php?title=PyMoHa_--_Python_Mouse_Handler">Lihuen</a>
 </p>
 </blockquote>
-</div>
-</div>
-
-<div id="outline-container-sec-3-3-2" class="outline-4">
-<h4 id="sec-3-3-2">Estado actual</h4>
-<div class="outline-text-4" id="text-3-3-2">
-<p>
-Ya hace bastante tiempo que no se desarrolla la aplicaci&oacute;n, pero eso
-no quiere decir que este abandonada.
-</p>
 </div>
 </div>
 </div>
