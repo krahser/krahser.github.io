@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>krahser</title>
-<!-- 2015-03-04 Wed 20:22 -->
+<!-- 2015-03-06 Fri 13:22 -->
 <meta  charset="utf-8">
 <meta  name="generator" content="Org-mode">
 <meta  name="author" content="Krahser &lt;Aldo Mar\iacute{}a Vizcaino&gt;">
@@ -207,7 +207,8 @@ for the JavaScript code in this tag.
 <div class="outline-text-2" id="text-1">
 <p>
 Es un espacio para compartir aprendizajes en informática.
-Abajo dejo los enlaces a las distintas redes sociales por si queres hablar de algo. Creo que twitter es la primer opción para hacer comentarios relacionados a algo escrito acá. Ya veremos como puedo integrarlo.
+Abajo dejo los enlaces a las distintas redes sociales por si me queres hablar de algo.
+Creo que twitter es la primer opción para hacer comentarios. Ya veremos como puedo integrarlo.
 Quiero expresarme mejor y para eso decidi escribir.
 </p>
 
@@ -736,22 +737,22 @@ archivo de configuración local.
 <h3 id="sec-2-8"><a id="systemd" name="systemd"></a>systemd</h3>
 <div class="outline-text-3" id="text-2-8">
 <p>
-Es un administrador del sistema para kernel Linux, que nos
-permite administrar todos los servicios que queremos utilizar, nos
-facilita la lectura de logs y nos permite enjaular aplicaciones.
+Es el demonio que nos permite dirigir nuestro sistema GNU en relacion con el kernel Linux.
+Podemos administrar el sistema y los servicios, crear jaulas (chroot),
+revisar los logs a traves de journald, graficar el tiempo de inicio del sistema,
+elegir que hacer cuando un servicio termina de forma inesperada, y algunas cosas más que todavía no aprendi.
 </p>
 
 <p>
-Convierte el sistema en una maquina de estados y eso nos permite por
-ejemplo permitir que un puerto este disponible y en el momento que
-llega la primer petición iniciar el servicio.
-</p>
-
-<p>
-Para que esto suceda el servicio tiene que ser capaz de recibir el socket.
-Por eso se necesita la colaboracion de la comunidad para que esta sistema pueda explotar todo su potencial.
+Es decir convierte el sistema en una maquina de estados, esto significa,
+que podemos tener el puerto 80 escuchando sin la necesidad de un servidor web funcionando.
+En el momento que llegue la primer petición se iniciara el servicio. Para que esto suceda
+el servicio en cuestion tiene que ser capaz de recibir un socket.
+Es por eso que se necesita un empuje de la comunidad para que esta fantastia herramienta pueda ser utilizada
+al 100 %.
 </p>
 </div>
+
 
 <div id="outline-container-sec-2-8-1" class="outline-4">
 <h4 id="sec-2-8-1">Documentación</h4>
@@ -759,7 +760,6 @@ Por eso se necesita la colaboracion de la comunidad para que esta sistema pueda 
 <ul class="org-ul">
 <li><a href="http://0pointer.de/blog">Blog del autor</a>
 </li>
-<li></li>
 <li><a href="http://0pointer.de/blog/projects/socket-activated-containers.html">socket-activated-cotainers</a>
 </li>
 <li><a href="http://informaticorenegado.com.ar/systemd">Presentacion en el LINTI</a>
