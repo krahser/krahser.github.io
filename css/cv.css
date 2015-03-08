@@ -1,0 +1,55 @@
+body {
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+.contact-details{
+    margin-left: 1em;
+    padding-bottom: 1em;
+    float: left;        
+}
+
+
+#outline-container-sec-1, #outline-container-sec-2, #outline-container-sec-3, #outline-container-sec-4, #outline-container-sec-5, #outline-container-sec-6, #outline-container-sec-7, #outline-container-sec-8, #outline-container-sec-9, #outline-container-sec-10{
+    clear: both;
+  /*  margin-left: 3em;
+    margin-right: 3em;*/
+    width: 85%;
+    margin: 40px auto 60px;
+}
+#text-1, #text-2, #text-2-1, #text-3, #text-4, #text-5, #text-6, #text-7, #text-8, #text-9, #text-10{
+    clear: both;
+    width: 85%;
+    margin: 40px auto 60px;
+}
+
+#profile-box{
+    width: 100%;
+}
+
+dd {
+    display: block;
+    padding-left: 5em;
+}
+
+dt {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 0 26px 0 0;
+    text-align: left;
+}
+
+i {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#sec-1, #sec-2, #sec-2-1, #sec-2-2, #sec-2-3, #sec-2-4, #sec-2-5, #sec-2-6, #sec-2-7, #sec-3, #sec-4, #sec-5, #sec-6, #sec-7, #sec-8, #sec-9, #sec-10{
+    text-align: center;
+}
+.outline-text-2, .outline-text-3{
+    padding-left:4.7em;
+    padding-top:2em;
+}
