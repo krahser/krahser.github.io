@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>krahser</title>
-<!-- 2015-04-06 Mon 01:15 -->
+<!-- 2015-05-04 Mon 00:50 -->
 <meta  charset="utf-8">
 <meta  name="generator" content="Org-mode">
 <meta  name="author" content="Krahser &lt;Aldo Mar\iacute{}a Vizcaino&gt;">
@@ -185,23 +185,16 @@ for the JavaScript code in this tag.
 <li><a href="#sec-2-4-3">Documentación</a></li>
 </ul>
 </li>
-<li><a href="#sec-2-5">git-annex</a>
+<li><a href="#sec-2-5"><span class="underline">nginx</span></a></li>
+<li><a href="#sec-2-6"><span class="todo TODO">TODO</span> <span class="underline">Shinken</span></a></li>
+<li><a href="#sec-2-7"><span class="underline">ssh</span></a>
 <ul>
-<li><a href="#sec-2-5-1">Cómo funciona?</a></li>
-<li><a href="#sec-2-5-2">Experiencias</a></li>
-<li><a href="#sec-2-5-3">Documentación</a></li>
+<li><a href="#sec-2-7-1">Documentación</a></li>
 </ul>
 </li>
-<li><a href="#sec-2-6"><span class="underline">nginx</span></a></li>
-<li><a href="#sec-2-7"><span class="underline">Shinken</span></a></li>
-<li><a href="#sec-2-8"><span class="underline">ssh</span></a>
+<li><a href="#sec-2-8"><span class="underline">systemd</span></a>
 <ul>
 <li><a href="#sec-2-8-1">Documentación</a></li>
-</ul>
-</li>
-<li><a href="#sec-2-9"><span class="underline">systemd</span></a>
-<ul>
-<li><a href="#sec-2-9-1">Documentación</a></li>
 </ul>
 </li>
 </ul>
@@ -233,7 +226,7 @@ Es un espacio para compartir aprendizajes en informática.
 
 <p>
 Abajo dejo los enlaces a las distintas redes sociales por si me queres hablar de algo.
-Creo que twitter es la primer opción para hacer comentarios. Ya veremos como puedo integrarlo.
+Twitter es la primer opción para hacer comentarios.
 </p>
 
 <p>
@@ -242,7 +235,8 @@ Quiero expresarme mejor y para eso decidi escribir.
 
 <p>
 Este espacio esta construido con Org-mode y unas pocas configuraciones de <a href="#Emacs">2.4</a>.
-Le faltan características de un blog, analice utilizar jekyll, o-blog y otros pero prefiero seguir con este formato.
+Le faltan características de un blog, analice utilizar jekyll, o-blog
+y otros pero prefiero seguir con este formato.
 </p>
 </div>
 </div>
@@ -259,10 +253,10 @@ En mi computadora uso la distribución <a href="#Arch-Linux">Arch Linux</a>.
 El escritorio de mi computadora está gestionado por <a href="http://www.gnome.org/">Gnome,</a>
 mi navegador es  <a href="https://www.mozilla.org">Firefox</a> o  <a href="https://www.google.com/chrome/browser/desktop/index.html">Chrome</a> -depende del uso-.
 En mi entorno de trabajo utilizo <a href="#Emacs">Emacs</a>.
-Tengo conocimiento de los lenguajes de programación <a href="http://en.wikipedia.org/wiki/C_(programming_language)">C</a>, <a href="https://www.python.org/">Python</a>, <a href="http://php.net/">PHP</a>, <a href="https://www.java.com/en/">
-Java</a> - <a href="http://www.android.com/">Android</a>.
+Tengo conocimiento de los lenguajes de programación <a href="http://en.wikipedia.org/wiki/C_(programming_language)">C</a>, <a href="https://www.python.org/">Python</a>, <a href="http://php.net/">PHP</a>,
+<a href="https://www.java.com/en/">Java</a> - <a href="http://www.android.com/">Android</a>.
 Para mi trabajo aprendí <a href="#systemd">systemd</a>, <a href="#ssh">ssh</a>, <a href="#Docker">Docker</a> y <a href="#Ansible">Ansible</a>.
-Como servidor web <a href="#nginx">nginx</a>, alguna vez utilice <a href="http://www.apache.org/">Apache</a>.
+Como servidor web elijo <a href="#nginx">nginx</a> y alguna vez utilice <a href="http://www.apache.org/">Apache</a>.
 Para almacenar datos probe <a href="http://www.mysql.com/">Mysql</a>, Sqlite, <a href="http://redis.io/">Redis</a>.
 </p>
 </div>
@@ -286,7 +280,8 @@ Me di cuenta que es un tema que da para largo, entonces podes seguir leyendo <a 
 <h4 id="sec-2-2-1"><a id="Arch-Linux" name="Arch-Linux"></a><a href="https://www.archlinux.org/"><span class="underline">Arch Linux</span></a></h4>
 <div class="outline-text-4" id="text-2-2-1">
 <p>
-Arch Linux es una distribución muy liviana y potente que permite estar siempre en las ultimas revisiones de software.
+Arch Linux es una distribución muy liviana y potente que permite
+estar siempre en las ultimas revisiones de software.
 </p>
 
 <ul class="org-ul">
@@ -314,26 +309,42 @@ Arch Linux es una distribución muy liviana y potente que permite estar siempre 
 </ul>
 </div>
 </div>
+
 <div id="outline-container-sec-2-2-2" class="outline-4">
 <h4 id="sec-2-2-2">Debian</h4>
 <div class="outline-text-4" id="text-2-2-2">
 <p>
-Con está distribución trabaje durante 5 años como la base de mi computadora.
-Es muy estable, existe mucha ayuda en la comunidad, es muy raro que ante un inconveniente seas el primero en detectarlo.
+Con está distribución trabaje durante 5 años.
+Es muy estable, existe mucha ayuda en la comunidad y es muy raro
+que ante un inconveniente seas el primero en detectarlo.
 </p>
 
 <p>
-Debian tiene una política muy estricta para respetar su seguridad y para garantizar estabilidad.
-Esto es una contra para mi, que quiero tener siempre la ultima versión de los productos que estoy utilizando, es por eso que me moví y llegué a Archlinux.
+Debian tiene una política muy estricta para respetar su seguridad y
+para garantizar estabilidad.
+</p>
+
+<p>
+Esto es una contra para mi, que quiero tener siempre la ultima versión,
+ es por eso que me moví y llegué a Archlinux.
 </p>
 </div>
 </div>
 
-
-
-
 <div id="outline-container-sec-2-2-3" class="outline-4">
 <h4 id="sec-2-2-3">Lihuen</h4>
+<div class="outline-text-4" id="text-2-2-3">
+<p>
+Es una distribución desarrollada por la Facultad de Informática.
+Esta orientada a alumnos de escuela primaria, secundaria o personas que quieran
+iniciarse en el mundo de GNU/Linux
+</p>
+
+<p>
+Esta basada en Debian y si queres encontrarte a charlar con algún desarrollador
+lo único que tenes que hacer es acercarte a la facu.
+</p>
+</div>
 </div>
 </div>
 
@@ -349,11 +360,10 @@ containerizing your applications. &#x2013; <a href="https://docs.docker.com/">Do
 </blockquote>
 
 <p>
-Docker nos permite el funcionamiento aislado de otra
-distribución de GNU/Linux  para poder ejecutar un conjunto de aplicaciones,
-probar entornos de trabajo, o lo que se nos ocurra.
+Docker nos permite el funcionamiento aislado de una distribución GNU/Linux
+para poder ejecutar un conjunto de aplicaciones en un sistema aislado para que
+no "ensuciemos" nuestro sistema de trabajo.
 </p>
-
 
 <p>
 En docker existen 2 conceptos basicos, imágenes y contenedores.
@@ -362,28 +372,19 @@ En docker existen 2 conceptos basicos, imágenes y contenedores.
 <p>
 Las imágenes son sinónimo de código fuente y los contenedores son sinónimo de
 proceso. Con esto quiero decir que las imágenes son una versión concreta de algo
-y los contenedores son esas mismas imágenes en ejecución. Es decir que
-para poder ejecutar un contenedor si o si necesitamos tener la imagen.
+y los contenedores son esas mismas imágenes en ejecución.
+Entonces para poder ejecutar un contenedor si o si necesitamos tener una imagen.
 </p>
 
 <p>
-Existen muchas imágenes disponibles en <a href="https://hub.docker.com/">docker hub,</a> también se pueden
-crear imágenes propias a partir de <a href="http://docs.docker.com/reference/builder/">Dockerfile</a>.
+Existen muchas imágenes disponibles en <a href="https://hub.docker.com/">docker hub</a>,
+también se pueden crear imágenes propias a partir de <a href="http://docs.docker.com/reference/builder/">Dockerfile</a>.
 </p>
 
 <p>
 Para resumir los conceptos principales de docker hay que pensar en un gestor
 de versiones. Las imagenes pueden ser versionadas. Cada contenedor se ejecuta
 a partir de una imagen y esta misma puede ser actualizada usando el contenedor.
-</p>
-
-
-<p>
-Algo usual en docker es ejecutar un solo proceso, si queremos
-agregarle algun tipo de administración remota, vamos a necesitar de un
-servicio como por ejemplo ssh. Cuando se ejecutan dos o mas procesos
-en una computadora es necesario saber cuando termino la ejecución,
-para liberar la memoria por ejemplo.
 </p>
 </div>
 
@@ -752,66 +753,14 @@ Functions and Keybindings
 </div>
 </div>
 </div>
+
 <div id="outline-container-sec-2-5" class="outline-3">
-<h3 id="sec-2-5">git-annex</h3>
+<h3 id="sec-2-5"><a id="nginx" name="nginx"></a><a href="http://nginx.org/"><span class="underline">nginx</span></a></h3>
 <div class="outline-text-3" id="text-2-5">
 <p>
-Este servicio nos permite tener los archivos en cualquier lugar y siempre en las ultimas versiones.
-</p>
-
-<p>
-Es un servicio que utiliza git para versionar archivos pesados y binarios.
-</p>
-</div>
-
-<div id="outline-container-sec-2-5-1" class="outline-4">
-<h4 id="sec-2-5-1">Cómo funciona?</h4>
-<div class="outline-text-4" id="text-2-5-1">
-<p>
-git-annex hace uso de git para almacenar el nombre de los archivos y sus metadatos.
-El contenido de los archivos es almacenado de forma distribuida mediante el uso de hash (clave/valor).
-Esto quiere decir que el archivo - o valor - esta ubicado en algún lugar dentro de .git/annex/.
-La clave es generada cuando el archivo se agrega al servicio.
-El archivo que se almacena en git es solo una referencia simbólica. Si se produce un cambio en el archivo, entonces el enlace es actualizado.
-</p>
-
-<p>
-El contenido de un archivo se transfiere de un repositorio a otro por git-annex.
-Los archivos son almacenados en un branch llamado "git-annex".
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-2-5-2" class="outline-4">
-<h4 id="sec-2-5-2">Experiencias</h4>
-<div class="outline-text-4" id="text-2-5-2">
-<p>
-Pueden visitar el enlace del asistente. Ahí encontrarán un vídeo que muestra como tener un repositorio funcionando.
-</p>
-</div>
-</div>
-
-
-<div id="outline-container-sec-2-5-3" class="outline-4">
-<h4 id="sec-2-5-3">Documentación</h4>
-<div class="outline-text-4" id="text-2-5-3">
-<ul class="org-ul">
-<li><a href="http://git-annex.branchable.com/how_it_works/">How it works?</a>
-</li>
-<li><a href="http://git-annex.branchable.com/assistant/">Asistente</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-
-<div id="outline-container-sec-2-6" class="outline-3">
-<h3 id="sec-2-6"><a id="nginx" name="nginx"></a><a href="http://nginx.org/"><span class="underline">nginx</span></a></h3>
-<div class="outline-text-3" id="text-2-6">
-<p>
 nginx es un servidor web muy potente que nos permite procesar
-peticiones utilizando una maquina de estados y derivarla al encargado
-de procesarla.
+peticiones utilizando una maquina de estados y delegar la peticion al encargado
+de procesarla, python, perl, ruby o php.
 </p>
 
 <blockquote>
@@ -835,24 +784,20 @@ features that are crucial for many complex real-life applications. &#x2014; <a h
 </div>
 </div>
 
-<div id="outline-container-sec-2-7" class="outline-3">
-<h3 id="sec-2-7"><a id="shinken" name="shinken"></a> <span class="underline">Shinken</span></h3>
-<div class="outline-text-3" id="text-2-7">
+<div id="outline-container-sec-2-6" class="outline-3">
+<h3 id="sec-2-6"><span class="todo TODO">TODO</span> <a id="shinken" name="shinken"></a> <span class="underline">Shinken</span></h3>
+<div class="outline-text-3" id="text-2-6">
 <p>
 Tengo que finalizar el rol y publicarlo junto al gist de como se instala.
-</p>
-
-<p>
 Un problema que me paso del foro y parece que di una respuesta <a href="http://forum.shinken-monitoring.org/threads/1341-create_reversed_list-not-defined">create_reversed_list</a>
 </p>
 </div>
 </div>
-<div id="outline-container-sec-2-8" class="outline-3">
-<h3 id="sec-2-8"><a id="ssh" name="ssh"></a> <span class="underline">ssh</span></h3>
-<div class="outline-text-3" id="text-2-8">
+<div id="outline-container-sec-2-7" class="outline-3">
+<h3 id="sec-2-7"><a id="ssh" name="ssh"></a> <span class="underline">ssh</span></h3>
+<div class="outline-text-3" id="text-2-7">
 <p>
-Secure shell es un protocolo utilizado para la administración remota
-de equipos.
+Secure shell es un protocolo utilizado para la administración remota de equipos.
 </p>
 
 <p>
@@ -865,9 +810,9 @@ archivo de configuración local.
 </pre>
 </div>
 
-<div id="outline-container-sec-2-8-1" class="outline-4">
-<h4 id="sec-2-8-1">Documentación</h4>
-<div class="outline-text-4" id="text-2-8-1">
+<div id="outline-container-sec-2-7-1" class="outline-4">
+<h4 id="sec-2-7-1">Documentación</h4>
+<div class="outline-text-4" id="text-2-7-1">
 <ul class="org-ul">
 <li><a href="http://en.wikipedia.org/wiki/Secure_Shell">Documentación oficial</a>
 </li>
@@ -877,29 +822,46 @@ archivo de configuración local.
 </div>
 </div>
 </div>
-<div id="outline-container-sec-2-9" class="outline-3">
-<h3 id="sec-2-9"><a id="systemd" name="systemd"></a> <span class="underline">systemd</span></h3>
-<div class="outline-text-3" id="text-2-9">
+<div id="outline-container-sec-2-8" class="outline-3">
+<h3 id="sec-2-8"><a id="systemd" name="systemd"></a> <span class="underline">systemd</span></h3>
+<div class="outline-text-3" id="text-2-8">
 <p>
 Es el demonio que nos permite dirigir nuestro sistema GNU en relacion con el kernel Linux.
-Podemos administrar el sistema y los servicios, crear jaulas (chroot),
-revisar los logs a traves de journald, graficar el tiempo de inicio del sistema,
-elegir que hacer cuando un servicio termina de forma inesperada, y algunas cosas más que todavía no aprendi.
+</p>
+
+<p>
+Podemos administrar:
+</p>
+<ul class="org-ul">
+<li>El sistema y los servicios
+</li>
+<li>Crear jaulas para los servicios (chroot)
+</li>
+<li>Revisar los logs a través de journald
+</li>
+<li>Gráficar el tiempo de inicio del sistema
+</li>
+<li>Elegir que hacer cuando un servicio termina de forma inesperada
+</li>
+</ul>
+
+<p>
+&#x2026; y algunas cosas más que todavía no aprendi.
 </p>
 
 <p>
 Es decir convierte el sistema en una maquina de estados, esto significa,
 que podemos tener el puerto 80 escuchando sin la necesidad de un servidor web funcionando.
-En el momento que llegue la primer petición se iniciara el servicio. Para que esto suceda
-el servicio en cuestion tiene que ser capaz de recibir un socket.
-Es por eso que se necesita un empuje de la comunidad para que esta fantastia herramienta pueda ser utilizada
-al 100 %.
+En el momento que llegue la primer petición se iniciara el servicio.
+Para que esto suceda el servicio en cuestion tiene que ser capaz
+de recibir un socket. Es por eso que se necesita un empuje de la comunidad
+para que esta fantástica herramienta pueda ser utilizada al 100 %.
 </p>
 </div>
 
-<div id="outline-container-sec-2-9-1" class="outline-4">
-<h4 id="sec-2-9-1">Documentación</h4>
-<div class="outline-text-4" id="text-2-9-1">
+<div id="outline-container-sec-2-8-1" class="outline-4">
+<h4 id="sec-2-8-1">Documentación</h4>
+<div class="outline-text-4" id="text-2-8-1">
 <ul class="org-ul">
 <li><a href="http://0pointer.de/blog">Blog del autor</a>
 </li>
@@ -993,14 +955,6 @@ acción. &#x2013; <a href="https://lihuen.info.unlp.edu.ar/index.php?title=PyMoH
 </a>
 <a href="https://www.linkedin.com/in/krahser">
   <img src="img/Linkedin.png" title="Linkedin" alt="Cuenta Linkedin">
-</a>
-<a href="http://grooveshark.com/krahser">
-  <img src="img/Grooveshark.png" title="Grooveshark" alt="Cuenta
-							Grooveshark" >
-</a>
-<a href="http://informaticorenegado.com.ar">
-  <img src="img/informaticorenegado.png" title="Mi sitio web"
-  alt="Pagina personal">
 </a>
 </div>
 </body>
