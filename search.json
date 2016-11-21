@@ -3,7 +3,7 @@
   
     {
       "title"			: "Hola mundo",
-      "link"			: "https://krahser.github.io/vam/blog/hello-world/",
+      "link"			: "https://krahser.github.io//blog/hello-world/",
       "excerpt"		: "Para mi, es una tarea difícil la de escribir. Esté es el séptimo intento de comenzar con un blog, peroesta vez planeo hacerlo con mas experiencia, siendo paciente y consciente de que quien no lo intenta, no lo consigue."
     }
   
@@ -11,7 +11,7 @@
   
     ,{
       "title"			: "Hola mundo",
-      "link"			: "https://krahser.github.io/vam/blog/hello-world/",
+      "link"			: "https://krahser.github.io//blog/hello-world/",
       "excerpt"		: "Para mi, es una tarea difícil la de escribir. Esté es el séptimo intento de comenzar con un blog, peroesta vez planeo hacerlo con mas experiencia, siendo paciente y consciente de que quien no lo intenta, no lo consigue."
     }
   
@@ -23,7 +23,7 @@
   
     ,{
       "title"			: "About me",
-      "link"			: "https://krahser.github.io/vam/about/",
+      "link"			: "https://krahser.github.io//about/",
       "excerpt"		: "A little description of myself."
     }
   
@@ -41,7 +41,7 @@
   
     ,{
       "title"			: "Theme Setup",
-      "link"			: "https://krahser.github.io/vam/theme-setup/",
+      "link"			: "https://krahser.github.io//theme-setup/",
       "excerpt"		: "Instructions on how to install and customize the Jekyll theme So Simple."
     }
   
