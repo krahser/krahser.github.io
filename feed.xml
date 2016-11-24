@@ -1,23 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://krahser.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://krahser.github.io//" rel="alternate" type="text/html" /><updated>2016-11-21T14:43:31+08:00</updated><id>https://krahser.github.io//</id><title type="html">VAM</title><subtitle>El gran ensayo de encontrar, la eternidad. ( Divididos )</subtitle><entry><title type="html">Hola mundo</title><link href="https://krahser.github.io//blog/hello-world/" rel="alternate" type="text/html" title="Hola mundo" /><published>2016-11-21T03:39:55+08:00</published><updated>2016-11-21T03:39:55+08:00</updated><id>https://krahser.github.io//blog/hello-world</id><content type="html" xml:base="https://krahser.github.io//blog/hello-world/">&lt;p&gt;
-Para mi, es una tarea difícil la de escribir. Esté es el séptimo intento de comenzar con un blog, pero
-esta vez planeo hacerlo con mas experiencia, siendo paciente y consciente de que quien no lo intenta, no lo consigue.
-&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://krahser.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://krahser.github.io/" rel="alternate" type="text/html" /><updated>2016-11-24T16:09:36+08:00</updated><id>https://krahser.github.io/</id><title type="html">VAM</title><subtitle>El gran ensayo de encontrar, la eternidad. ( Divididos )</subtitle><entry><title type="html">¿Por dónde empiezo?</title><link href="https://krahser.github.io/blog/let's-start/" rel="alternate" type="text/html" title="¿Por dónde empiezo?" /><published>2016-11-24T00:00:00+08:00</published><updated>2016-11-24T00:00:00+08:00</updated><id>https://krahser.github.io/blog/let's-start</id><content type="html" xml:base="https://krahser.github.io/blog/let's-start/">&lt;p&gt;Muchas veces siento que necesito realizar un cambio en mi vida, o que simplemente quiero aprender algo nuevo. Si el objetivo es claro, seguramente el camino será más agradable. Si no lo es, es bueno saber por donde empezar…&lt;/p&gt;
 
-&lt;p&gt;
-Hace tres semanas que estamos con mi compañera de vida en Wudang. De a poco vamos entendiendo y encontrando los momentos para poder 
-dedicarle más tiempo a otras actividades. 
-&lt;/p&gt;
+&lt;p&gt;Ya paso un mes de entrenamiento, casi sin darnos cuenta. ¿Está es una buena señal? o ¿Simplemente la edad hace parecer los días más cortos? Sin importar eso, siempre trato de aprender algo, y dejo en un segundo plano la práctica o el ejercicio de lo que ya aprendí.&lt;/p&gt;
 
-&lt;p&gt;
-En mi caso, después de la primer semana me embarque a estudiar Chino. Comenzamos con pronunciación, luego aprendimos pin-yin 
-para poder leer pronunciación, y ahora estamos comenzando con caracteres. Es bastante difícil recordar, 
-ya que muchas silabas son iguales y cambian en el tono.
-&lt;/p&gt;
+&lt;p&gt;Acá, en la escuela, es muy común escuchar a nuestro entrenador decir, “memorize”, “more practice”, y una frase celebre, ¨Don’t forget¨.&lt;/p&gt;
 
-&lt;p&gt;
-Ya se termino el tiempo que podía dedicarle a la escritura, será hasta prontoo&amp;#x2026;
-&lt;/p&gt;</content><summary type="html">Para mi, es una tarea difícil la de escribir. Esté es el séptimo intento de comenzar con un blog, pero
-esta vez planeo hacerlo con mas experiencia, siendo paciente y consciente de que quien no lo intenta, no lo consigue.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://krahser.github.io/{&quot;feature&quot;=&gt;nil}" /></entry><entry><title type="html">Hola mundo</title><link href="https://krahser.github.io//blog/hello-world/" rel="alternate" type="text/html" title="Hola mundo" /><published>2016-11-20T00:00:00+08:00</published><updated>2016-11-20T00:00:00+08:00</updated><id>https://krahser.github.io//blog/hello-world</id><content type="html" xml:base="https://krahser.github.io//blog/hello-world/">&lt;p&gt;Para mi, es una tarea difícil la de escribir. Esté es el séptimo intento de comenzar con un blog, pero
+&lt;p&gt;La mejor forma de no olvidar es la practica. Nada nuevo, ¿no?. Solo hay que hacerse el habito de practicar todos los días.&lt;/p&gt;</content><summary type="html">Muchas veces siento que necesito realizar un cambio en mi vida, o que simplemente quiero aprender algo nuevo. Si el objetivo es claro, seguramente el camino será más agradable. Si no lo es, es bueno saber por donde empezar…</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://krahser.github.io{&quot;feature&quot;=&gt;nil}" /></entry><entry><title type="html">Hola mundo</title><link href="https://krahser.github.io/blog/hello-world/" rel="alternate" type="text/html" title="Hola mundo" /><published>2016-11-20T00:00:00+08:00</published><updated>2016-11-20T00:00:00+08:00</updated><id>https://krahser.github.io/blog/hello-world</id><content type="html" xml:base="https://krahser.github.io/blog/hello-world/">&lt;p&gt;Para mi, es una tarea difícil la de escribir. Esté es el séptimo intento de comenzar con un blog, pero
 esta vez planeo hacerlo con mas experiencia, siendo paciente y consciente de que quien no lo intenta, no lo consigue.&lt;/p&gt;
 
 &lt;p&gt;Hace tres semanas que estamos con mi compañera de vida en Wudang. De a poco vamos entendiendo y encontrando los momentos para poder 
@@ -28,4 +15,4 @@ para poder leer pronunciación, y ahora estamos comenzando con caracteres. Es ba
 ya que muchas silabas son iguales y cambian en el tono.&lt;/p&gt;
 
 &lt;p&gt;Ya se termino el tiempo que podía dedicarle a la escritura, será hasta prontoo…&lt;/p&gt;</content><summary type="html">Para mi, es una tarea difícil la de escribir. Esté es el séptimo intento de comenzar con un blog, pero
-esta vez planeo hacerlo con mas experiencia, siendo paciente y consciente de que quien no lo intenta, no lo consigue.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://krahser.github.io/{&quot;feature&quot;=&gt;nil}" /></entry></feed>
+esta vez planeo hacerlo con mas experiencia, siendo paciente y consciente de que quien no lo intenta, no lo consigue.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://krahser.github.io{&quot;feature&quot;=&gt;nil}" /></entry></feed>
