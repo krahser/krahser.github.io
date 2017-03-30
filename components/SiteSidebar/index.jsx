@@ -1,12 +1,3 @@
-import React from 'react'
-import { RouteHandler, Link } from 'react-router'
-import { prefixLink } from 'gatsby-helpers'
-import { config } from 'config'
-import SiteNav from '../SiteNav'
-import SiteLinks from '../SiteLinks'
-import './style.css'
-import profilePic from '../../pages/photo.png'
-
 import React from 'react';
 import { Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
