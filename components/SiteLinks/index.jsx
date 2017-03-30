@@ -5,6 +5,8 @@ import { config } from 'config'
 import './style.css'
 import '../../static/fonts/fontawesome/style.css'
 
+import {Icon} from 'semantic-ui-react'
+
 class SiteLinks extends React.Component {
     render () {
 
@@ -21,7 +23,7 @@ class SiteLinks extends React.Component {
             {config.siteGithubUrl && (
               <li>
                 <a href={config.siteGithubUrl}>
-                  <i className="fa fa-github-alt" />
+                  <Icon size="big" name="github" />
                 </a>
               </li>
             )}

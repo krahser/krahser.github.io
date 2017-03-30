@@ -10,16 +10,17 @@ module.exports = React.createClass({
         body: React.PropTypes.string,
     },
     render() {
-        const {body, route} = this.props
-        const {title} = Helmet.rewind()
-        const font = <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css' />
-        let css
+      const {body, route} = this.props
+      const {title} = Helmet.rewind()
+      const font = <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css' />
+        const semantic = <link rel="stylesheet" href='https://cdn.jsdelivr.net/semantic-ui/2.2.7/semantic.min.css' />
+      let css
         if (process.env.NODE_ENV === 'production') {
             css = <style dangerouslySetInnerHTML={ {    __html: require('!raw!./public/styles.css')} } />
         }
 
         return (
-            <html lang="en">
+            <html lang="es">
             <head>
               <meta charSet="utf-8" />
               <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -27,6 +28,7 @@ module.exports = React.createClass({
               { title.toComponent() }
               { font }
               { css }
+              { semantic }
             </head>
             <body>
               <div id="react-mount" dangerouslySetInnerHTML={ {    __html: this.props.body} } />

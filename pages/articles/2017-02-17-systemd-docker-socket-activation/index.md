@@ -1,6 +1,6 @@
 ---
 title: "Systemd y Docker, dos buenos aliados"
-date: "2017-02-17T22:12:03.284Z" UPDATE
+date: "2017-02-17T22:12:03.284Z"
 layout: post
 path: "/systemd-docker-aliados/"
 category: "energy saving"

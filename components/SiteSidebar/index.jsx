@@ -5,7 +5,7 @@ import { config } from 'config'
 import SiteNav from '../SiteNav'
 import SiteLinks from '../SiteLinks'
 import './style.css'
-import profilePic from '../../pages/photo.jpg'
+import profilePic from '../../pages/photo.png'
 
 class SiteSidebar extends React.Component {
     render() {
@@ -13,7 +13,7 @@ class SiteSidebar extends React.Component {
         const isHome = location.pathname === prefixLink('/')
 
         let header = (
-        <header>
+        <header style={ { textAlign: 'center'} }>
           <Link style={ {    textDecoration: 'none',    borderBottom: 'none',    outline: 'none'} } to={ prefixLink('/') }>
           <img src={prefixLink(profilePic)} width='75' height='75' />
           </Link>
@@ -40,7 +40,11 @@ class SiteSidebar extends React.Component {
                   <footer>
                     <SiteLinks {...this.props}/>
                     <p className='copyright'>
-                      &copy; All rights reserved.
+                      Copyright &copy; por Aldo María Vizcaino con licencia 
+                      <a href="https://creativecommons.org/licenses/by-sa/4.0/"> Creative Commons Attribution-ShareAlike 4.0 International License.</a>
+                    </p>
+                    <p>
+                    Este sitio se construye gracias a <a href="https://github.com/wpioneer/gatsby-starter-lumen">gatsby-starter-lumen</a>
                     </p>
                   </footer>
                 </div>

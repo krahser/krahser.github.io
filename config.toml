@@ -2,12 +2,12 @@ siteTitle = "Blog by krahser"
 siteDescr = "Tecnología para compartir"
 siteAuthor = "Aldo María Vizcaino"
 
-siteTelegramUrl = "#"
-siteTwitterUrl = "https://twitter.com/krahser"
+siteTelegramUrl = ""
+siteTwitterUrl = ""
 siteGithubUrl = "https://github.com/krahser"
-siteEmailUrl = "#"
-siteRssUrl = "#"
-siteVkUrl = "#"
+siteEmailUrl = ""
+siteRssUrl = ""
+siteVkUrl = ""
 
 googleAnalyticsId = "UA-49097633-2"
 
