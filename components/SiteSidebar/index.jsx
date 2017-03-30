@@ -14,7 +14,7 @@ class SiteSidebar extends React.Component {
 
     /* eslint-disable jsx-a11y/img-redundant-alt*/
     const header = (
-      <header>
+      <header style={{ textAlign: 'center' }}>
         <Link style={{ textDecoration: 'none', borderBottom: 'none', outline: 'none' }} to={prefixLink('/')}>
           <img
             src={profilePic}
